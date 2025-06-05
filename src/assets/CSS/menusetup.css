@@ -1,0 +1,339 @@
+.content-wrapper {
+    min-height: 692px;
+}
+
+.lblMenuTypeStyle {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sweet-alert .text-muted {
+    margin-top: 22px;
+}
+
+
+#selected_WebMenuTypeName {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.menus_wraps-items-options {
+    position: absolute;
+    top: 5px;
+    right: 24px;
+}
+
+.menu_setup_commonClass {
+    box-shadow: -3px 1px 5px 5px #80808061;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.background_menus-color {
+    padding: 107px !important;
+}
+
+.item_name {
+    font-weight: 550;
+}
+
+.ui-state-highlight {
+    background-color: rgba(255, 255, 0, 0.3);
+    border: 3px dashed yellow;
+    border-radius: 10px;
+}
+/* width */
+#LeftSideBindSubDepartmentList_KIOSKMenuSeup::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+#LeftSideBindSubDepartmentList_KIOSKMenuSeup::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808054;
+    border-radius: 10px;
+}
+
+/* Handle */
+#LeftSideBindSubDepartmentList_KIOSKMenuSeup::-webkit-scrollbar-thumb {
+    background: #d7d5d5;
+    border-radius: 5px;
+}
+/* width */
+.cat-log-inner::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.cat-log-inner::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808054;
+    border-radius: 10px;
+}
+
+/* Handle */
+.cat-log-inner::-webkit-scrollbar-thumb {
+    background: #d7d5d5;
+    border-radius: 5px;
+}
+
+.select2-search__field {
+    width: 100% !important;
+}
+
+div#pills-depart1 {
+    height: 77vh;
+    overflow: auto;
+}
+
+.content-wrapper {
+    /* background-color: #2e2e2e;*/
+    min-height: calc(100vh - 72px) !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pos-menu-main {
+    background-color: #222;
+    padding: 10px;
+    box-shadow: 1px 1px 9px rgba(0,0,0,0.9);
+    border-radius: 4px;
+}
+
+.modify-inner {
+    cursor: pointer;
+}
+
+#BindProductListBySubdepartmentId_POSMenuSetup tr {
+    cursor: pointer;
+}
+
+.selectedClass {
+    border: 3px solid #f1791cd6;
+}
+/* width */
+.pos-right .tab-content::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+.pos-right .tab-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808054;
+    border-radius: 10px;
+}
+
+/* Handle */
+.pos-right .tab-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgba(228,88,39,1) 9%, rgba(253,141,33,1) 90%);
+    border-radius: 5px;
+}
+
+.disabled-div {
+    pointer-events: none;
+    /*opacity: 0.5;*/ /* You can adjust the opacity as needed */
+}
+
+/* color-Picker css*/
+div#color-option button img {
+    width: 100%;
+    max-width: 93px;
+}
+
+div#color-option button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.color-pick-model .modal-content {
+    background-color: rgb(255 255 255 / 70%);
+    height: 400px;
+    margin-top: -171px;
+}
+
+.color-pick-model .modal-body p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.color-pick-center {
+    display: flex;
+    justify-content: center;
+}
+
+.color-pick-model button.btn.btn-secondary {
+    padding: 4px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4F5356;
+    border: none;
+    font-weight: 500;
+}
+
+.color-pick-model button.btn.btn-primary {
+    background: linear-gradient(0deg, rgba(228,88,39,1) 9%, rgba(253,141,33,1) 90%);
+    border: none;
+    padding: 4px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.colorpicker-saturation {
+    width: 152px;
+    height: 155px;
+    border-radius: 50%;
+}
+
+.colorpicker.colorpicker-with-alpha {
+    width: 273px;
+}
+
+.popover-arrow {
+    display: none !important;
+}
+
+.colorpicker-hue {
+    margin-left: 23px;
+    margin-top: 12px;
+}
+
+.colorpicker-alpha {
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.popover {
+    border: none;
+}
+
+.colorpicker-bar {
+    min-height: 23px;
+    margin: 7px 47px 0px 0;
+    font-size: 14px;
+}
+
+.colorpicker-bs-popover {
+    transform: translate(307%, 126%) !important;
+    background: #fff0 !important;
+}
+
+i.colorpicker-guide {
+    left: 20px;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 0px !important;
+}
+
+.color-pick-model {
+    width: 100%;
+    max-width: 80%;
+    right: 0;
+    left: auto;
+    background-color: rgba(0,0,0,0.5);
+    height: 85vh;
+    margin-top: 81px;
+    margin-right: 15px;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+/* .pos-table1 {
+    height: 235px !important;
+}
+
+
+*/
+.leftSideProductClass {
+    border: 3px solid #fd8d21;
+}
+
+@media (width:1920px) {
+    .colorpicker-bs-popover {
+        transform: translate(383%, 160%) !important;
+    }
+
+    .pos-table1 {
+        height: 400px !important;
+    }
+
+    .pos-cate-butns button {
+        background-color: #dfdddd;
+        border: none;
+        font-size: 13px !important;
+        color: #000;
+        border-radius: 4px;
+        font-weight: 500;
+        padding: 7px 13px !important;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+}
+
+.pos-cate-butns button {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-pills {
+    display: block;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.pos-right .nav-pills {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    height: inherit;
+    /* overflow: auto; */
+    /* overflow-x: hidden; */
+    align-items: center;
+}
+/* width */
+.scrollable-container::-webkit-scrollbar {
+    width: 5px;
+    height: 9px;
+}
+
+/* Track */
+.scrollable-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808054;
+    border-radius: 10px;
+}
+
+/* Handle */
+.scrollable-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgba(228,88,39,1) 9%, rgba(253,141,33,1) 90%);
+    border-radius: 5px;
+}
+
+.modify-inner span {
+    z-index: 1 !important;
+}
+
+
+  

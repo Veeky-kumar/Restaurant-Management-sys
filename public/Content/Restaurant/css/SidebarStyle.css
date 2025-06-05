@@ -1,0 +1,537 @@
+﻿/* service-charge css */
+.set-service tbody tr th {
+    width: 10px;
+    padding: 0px !important;
+    color: #1C2126;
+    font-weight: unset;
+}
+
+.set-service h6 {
+    font-size: 15px;
+}
+
+.set-service {
+    background-color: #eff3f9;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+    .set-service select {
+        appearance: menulist !important;
+        color: #1C2126 !important;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .set-service .editbx {
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 4px 18px;
+        background-color: #4235b4;
+        color: #fff;
+        border: none;
+    }
+
+.toggle-bx .switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+    .toggle-bx .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.toggle-bx .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: -4px;
+    bottom: 1px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .toggle-bx .slider:before {
+        position: absolute;
+        content: "";
+        height: 17px;
+        width: 17px;
+        left: 2px;
+        bottom: 3px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+.toggle-bx input:checked + .slider {
+    background-color: #5650bd
+}
+
+.toggle-bx input:focus + .slider {
+    box-shadow: 0 0 1px #5650bd;
+}
+
+.toggle-bx input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.toggle-bx .slider.round {
+    border-radius: 34px;
+}
+
+    .toggle-bx .slider.round:before {
+        border-radius: 50%;
+    }
+
+.air-tab .modal-content {
+    border-radius: 10px !important;
+}
+
+.span-bx {
+    position: relative;
+}
+
+    .span-bx input.time-input {
+        border: 1px solid #9ca7ba;
+        border-radius: 5px;
+        width: 100%;
+        padding: 3px 8px;
+        max-width: 100px;
+    }
+
+    .span-bx button {
+        position: absolute;
+        bottom: -3px;
+        right: 1px;
+        border: none;
+        background-color: #fff;
+    }
+
+    .span-bx .fa-times-circle {
+        color: #9ca7ba !important;
+        background-color: #fff;
+    }
+
+/*  */
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 100%;
+    max-width: 106px;
+    text-align: center;
+    color: #007bff;
+    font-size: 15px;
+    background: #eff3f9;
+    border: 1px solid #ced4da;
+    display: inline;
+    -ms-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 0px;
+}
+
+
+    .file-upload input.file-input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        height: 100%;
+    }
+
+.mylogo .imageWrapper {
+    max-width: 100px;
+    overflow: hidden;
+    max-height: 50px;
+}
+
+    .mylogo .imageWrapper .image {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+.mylogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 3px;
+}
+
+/* ------------- */
+/*nav#sidebar {
+            border-right: 1px solid #e1e1e2 !important;
+        }*/
+
+.sidebar .nav .nav-item .collapse {
+    background-color: #f7fafc;
+}
+
+.footer-ul {
+    bottom: 0;
+    background: white;
+}
+
+.IsNumeric {
+    background-color: #eff3f9 !important;
+}
+
+.fo-profile h6 {
+    font-size: 17px;
+    color: #222 !important;
+    font-weight: 550;
+}
+
+.fo-profile path,
+.fo-icon .icon-1 path {
+    fill: #9ca7ba;
+}
+
+circle {
+    fill: #9ca7ba;
+}
+
+
+.sidebar {
+    background: #fff !important;
+}
+
+    .sidebar .nav:not(.sub-menu) > .nav-item {
+        border-bottom: 1px solid #e1e1e2;
+        border-radius: 0px !important;
+        margin-top: 0px !important;
+    }
+
+/*.sidebar .nav .nav-item > .nav-link .menu-title {
+                color: #222;
+                font-size: 13px;
+                font-weight: 400 !important;
+            }*/
+
+li.nav-item.nav-item-commonClass_RestaurantLayout .show li a svg path {
+    fill: #9ca7ba !important;
+}
+
+.sidebar .nav .nav-item.active > .nav-link svg path {
+    fill: #1F3BB3 !important;
+}
+
+li.nav-item a svg path {
+    fill: #9ca7ba;
+}
+
+
+/*.sidebar .nav:not(.sub-menu) > .nav-item > .nav-link {
+            padding: 16px 0px;
+        }*/
+
+/* ----------- */
+body {
+    font-family: Quicksand, Droid Arabic Kufi, Muli, Merriweather, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+.delay_order-select select {
+    background-color: #eff3f9 !important;
+    z-index: 1;
+}
+
+.items_chckbox-wraps .set-row {
+    width: 90%;
+    margin: 0px auto;
+    padding: 8px 0px;
+    align-items: center;
+}
+
+.set-row .col {
+    padding: 0px 5px;
+}
+
+.topbar {
+    position: fixed;
+    z-index: 999 !important;
+    background-color: #ffff;
+    width: -webkit-fill-available;
+    display: flex;
+    top: 0;
+    height: 75px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .topbar {
+        height: 58px !important;
+    }
+}
+
+/*.container-scroller {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 9999;
+            overflow-y: auto;
+        }*/
+
+.profile {
+    margin-top: 60px;
+    padding: 0px 8px;
+}
+
+    .profile .b-color,
+    .address .b-color {
+        background-color: #fff;
+        padding: 10px 10px 13px;
+        border: 1px solid #dee2e6;
+        box-shadow: -1px 0px 2px 0px #0000002b, 1px 0px 2px 0px #0000002b;
+    }
+
+.address .b-color {
+    padding: 18px 15px 10px;
+}
+
+.language-section {
+    background-color: #fff;
+    margin: 15px 23px;
+    box-shadow: -1px 0px 2px 0px #0000002b, 1px 0px 2px 0px #0000002b;
+    padding: 10px 15px 15px;
+}
+
+
+/* new css added */
+.logo-detail h5 {
+    padding: 0 !important;
+    margin: 0px;
+    font-size: 13px !important;
+    color: #212529;
+}
+
+.round_wraps input:checked + .slider {
+    background: transparent linear-gradient(269deg, rgb(130 1 219) 0%, rgb(8 94 179) 100%) 0% 0% no-repeat padding-box !important;
+}
+
+/*.select_box select {
+            height: 30px;
+            padding: 0px 10px;
+        }*/
+
+.order_delay-wraps:first-child {
+    margin-top: 0px;
+}
+
+.order_delay-wraps {
+    margin-top: 10px;
+}
+
+
+.round_wraps .slider:before {
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+}
+
+.language-section .form-group {
+    margin-bottom: 10px;
+}
+
+    .language-section .form-group .select-bx {
+        border: 1px solid #ced4da;
+        outline: none;
+    }
+
+.form-group .form-control {
+    /* height: 28px;*/
+    background-color: #eff3f9;
+    font-size: 14px;
+}
+
+    .form-group .form-control:hover {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03), 0 4px 22px 0 rgba(0, 0, 0, .09);
+    }
+
+    .form-group .form-control::placeholder {
+        font-size: 13px;
+    }
+
+.language-section .form-group label {
+    font-size: 13px;
+    margin-bottom: 0px;
+    height: 23px;
+    vertical-align: bottom;
+}
+
+
+.timing-cgt-desc h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.restaurant_wraps-timings .button_botm,
+.tab .button_botm {
+    padding: 15px 0px 0px;
+}
+
+button.btm_button_pro {
+    width: 110px;
+    padding: 5px 1px;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #5f27cd;
+    margin: 0px 5px;
+}
+
+    button.btm_button_pro:hover {
+        background-color: #341f97;
+    }
+
+.timing-cgt-desc {
+    padding: 17px 16px;
+}
+
+.cgt-desc ul.online_store_timing li a {
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 4px 15px;
+}
+
+.cgt-desc ul li a.active:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03), 0 4px 22px 0 rgba(0, 0, 0, .09);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #1C2126;
+}
+
+.cgt-desc ul.tabs.online_store_timing {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: -1px 0px 2px 0px #0000002b, 1px 0px 2px 0px #0000002b;
+    margin-bottom: 21px;
+    padding: 6px 0px;
+    background-color: #eff3f9;
+}
+
+.items_chckbox-wraps {
+    border-radius: 5px;
+    box-shadow: -1px 0px 2px 0px #0000002b, 1px 0px 2px 0px #0000002b;
+}
+
+.profile .form-row label {
+    font-size: 13px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+    height: 23px;
+}
+
+/*.content-wrapper {
+            min-height: 692px;
+        }*/
+
+#product_availability .product_item-name,
+#product_availability .product_item-price {
+    cursor: pointer;
+}
+
+.tblStyle {
+    text-align: center;
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.selectedTableClass_ManageTables_SoftwareSetting {
+    border: 3px solid #5855BF;
+}
+
+.table_wraps-settings {
+    padding: 25px;
+}
+
+.table_number {
+    width: 110px;
+    height: 123px;
+    margin: 0px 8px;
+    margin-bottom: 16px;
+}
+
+/* new css */
+.wrapper-navs_wraps .trading,
+.profile h6,
+.address h6 {
+    padding: 15px 0px 4px;
+    font-size: 15px;
+}
+
+.bxshadow {
+    box-shadow: -1px 0px 2px 0px #0000002b, 1px 0px 2px 0px #0000002b;
+}
+
+/* //////////////////////////// */
+/* new css add  */
+
+.pad-add {
+    position: relative;
+    padding: 0px 10px;
+}
+
+    .pad-add a.a-right {
+        position: absolute;
+        right: 11px;
+        top: 0;
+    }
+
+.language-section h6 {
+    font-size: 13px;
+}
+
+.wrapper-navs_wraps,
+.address {
+    padding: 0px 23px;
+}
+
+.btn-pro {
+    padding: 10px 30px;
+    background-color: #5855bf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.button_botm {
+    background-color: transparent !important;
+    padding: 20px 20px 29px;
+}
+
+/*.nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            border: 1px solid #dee2e6;
+        }*/
+
+.select-icon select {
+    border-right: 12px solid #eff3f9;
+}
+
+    .select-icon select:focus {
+        border-color: white;
+        box-shadow: none;
+    }

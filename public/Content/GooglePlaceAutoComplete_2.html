@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Place Autocomplete</title>
+    <!--<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>-->
+    <!-- jsFiddle will insert css and js -->
+  </head>
+  <body>
+      <input type="text" id="address" value="Phagwara, Punjab, India">
+      <input type="text" id="lat" value="" disabled>
+      <input type="text" id="lng" value="" disabled>
+
+      <script type="text/javascript">
+          function initAutocomplete() {
+              var address = document.getElementById('address');
+              var autocomplete = new google.maps.places.Autocomplete(address);
+
+              autocomplete.addListener('place_changed', function () {
+                  var place = autocomplete.getPlace();
+                  var latitude = place.geometry.location.lat();
+                  var longitude = place.geometry.location.lng();
+                  document.getElementById('lat').value = latitude;
+                  document.getElementById('lng').value = longitude;
+                  console.log(document.getElementById('address').value);
+              });
+          }
+      </script>
+
+      <!--<script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initAutocomplete&language=nl&output=json&key=AIzaSyBcr-VYBHjaGfogEpfchiCkFsUaPwO3lHQ" async defer></script>-->
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBcr-VYBHjaGfogEpfchiCkFsUaPwO3lHQ&callback=initAutocomplete"></script>
+
+
+  </body>
+</html>

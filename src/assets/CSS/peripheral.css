@@ -1,0 +1,337 @@
+#deliveryZoneDetails button {
+  float: right;
+  margin: 10px;
+}
+
+.errorsClasstip {
+  color: red;
+  font-size: 0.9rem;
+  height: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+#btnSubmit_SaveTermsofUsePdf_WorkflowSetting,
+#btnSubmit_SavePrivacyPolicyPdf_WorkflowSetting,
+#btnSubmit_RefundPdf_WorkflowSetting {
+  margin-bottom: 2px;
+}
+
+.align-icons-upload {
+  margin-left: 10px;
+}
+
+.input-bx-ws {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.logo-detail-ws {
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.mylogo-ws {
+  display: flex;
+  align-items: center;
+}
+
+.file-upload-ws input[type="file"] {
+  margin-right: 10px;
+}
+
+.file-input-ws {
+  display: none;
+}
+
+.file-label-ws {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+}
+
+.file-label-ws:hover {
+  background-color: #e9ecef;
+}
+
+#imgLogoImage_WorkflowSetting {
+  width: 100px;
+}
+
+.container {
+  position: relative;
+}
+
+.file-upload-ws {
+  position: absolute;
+  left: 575px;
+  display: flex;
+  align-items: center;
+}
+
+#delivery_zone_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Stripe Setup css */
+/* input.form-control {
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+} */
+
+p.wrap_plus-add {
+  width: 110px;
+}
+
+.fadeList {
+  opacity: 0.3;
+}
+
+.classheading_PageTitle_RestaurantLayoutSetStyle {
+  max-width: 74% !important;
+}
+ul.nav.nav-tabs.software_settings .nav-link {
+  padding: 5px 15px !important;
+  /* font-size: 14px !important;*/
+}
+
+.tableqr-box .table_wraps-settings {
+  min-height: 52vh !important;
+}
+.modal-footer .btn {
+  padding: 15px 30px; /* Increases button padding */
+  font-size: 1.2em; /* Increases font size */
+  min-width: 120px; /* Sets a minimum width for the buttons */
+  min-height: 50px; /* Sets a minimum height for the buttons */
+}
+
+.pro-submit {
+  background-color: #1b5703;
+  color: #fff;
+  border: 1px solid #1b5703;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pro-cancel {
+  background-color: transparent;
+  color: #4235b4;
+  border: 1px solid #4235b4;
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ui-state-highlight {
+  height: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 0, 0.3);
+  border: 25px solid rgba(255, 255, 0, 0.3);
+}
+
+.ReasonSectionCommonClass {
+  cursor: move;
+}
+
+.chat-online {
+  color: #34ce57;
+}
+
+.chat-offline {
+  color: #e4606d;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  max-height: 441px;
+  overflow-y: auto;
+  /* min-height: 441px; */
+}
+
+.chat-message-left,
+.chat-message-right {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.chat-message-left {
+  margin-right: auto;
+}
+
+.chat-message-right {
+  flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.flex-grow-0 {
+  flex-grow: 0 !important;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6 !important;
+}
+
+/* input.form-control {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  height: 50px;
+} */
+
+input.edit_checkbox {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+  .chat-messages {
+    min-height: 775px;
+  }
+}
+
+.flex-shrink-1 {
+  background: #554ebc;
+  color: #fff;
+}
+
+.material-icons {
+  color: #b9272a;
+}
+.order-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.order-card {
+  position: relative;
+  background-color: #4235b4; /* Coral orange like in the image */
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.order-status {
+  font-size: 14px;
+  font-weight: bold;
+  color: white; /* Red for Unpaid */
+  margin-bottom: 10px;
+}
+
+.question-mark {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff7f50; /* Coral orange to match the card background */
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto 15px auto; /* Center it horizontally and give margin-bottom */
+}
+
+.customer-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-details {
+  font-size: 14px;
+  color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slight transparency for a more refined look */
+}
+
+.order-details p {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .order-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
+.tab-bar {
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: Black;
+  cursor: pointer;
+  text-align: center;
+  flex: 1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab.active {
+  background-color: #4235b4;
+  color: white;
+}
+
+.order-grid {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.order-grid.active {
+  display: grid;
+}
+
+.order-card {
+  background-color: #4235b4;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.order-status,
+.customer-name {
+  font-weight: bold;
+}
+
+.order-card .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px auto;
+  line-height: 50px;
+  font-size: 30px;
+  color: black; /* Red */
+}

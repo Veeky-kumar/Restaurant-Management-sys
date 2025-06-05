@@ -1,0 +1,63 @@
+.aline_input a {
+    padding: 6px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .lblModifiersSettingClass {
+    font-weight: 600;
+  }
+  
+  .modifierOptionTitleStyle {
+    width: 150px;
+    border-radius: 0px;
+    border: 0;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    background-color: #fff !important;
+    margin-top: 25px;
+  }
+  
+  button.btm_button_pro_sm {
+    padding: 4px 25px;
+    font-size: 15px;
+    margin: 0px 5px;
+    border-radius: 5px;
+  }
+  
+  .wrao_sidebrs, .custom_add_pro_rpw {
+    padding: 10px !important;
+  }
+  
+  .main_deapt {
+    padding: 30px 40px;
+  }
+  
+  ul.nav.nav-pills.footer_nav-tabs li {
+    width: 33.3%;
+  }
+  
+  .product_option_style {
+    padding-right: 49px;
+    margin-right: 1rem;
+    margin-top: 7px;
+    margin-bottom: 0.5rem;
+  }
+  
+  ul.nav.nav-pills.footer_nav-tabs .tabOptionClass {
+    width: 23.3% !important;
+  }
+  
+  @media only screen and (min-width:768px) and (max-width: 819px) {
+    .printerAllocationSectionStyle {
+      height: 660px;
+    }
+  }
+  
+  @media only screen and (min-width:820px) and (max-width: 1180px) {
+    .printerAllocationSectionStyle {
+      height: 1100px;
+    }
+  }
+  

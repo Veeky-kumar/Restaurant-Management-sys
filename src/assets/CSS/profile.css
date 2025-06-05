@@ -1,0 +1,57 @@
+.pac-container {
+           
+    z-index: 999999999999;
+   
+}
+#watermark {
+    position: absolute;
+    /* bottom: 5px; */
+    /* right: 5px; */
+    opacity: 0.5;
+    z-index: 99;
+    /* color: white; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    background: #70756a96;
+    color: #0b0d0b;
+}
+
+.commingSoonDesign {
+    font-size: 48px;
+    padding: 166px;
+    color: #ff0000;
+}
+
+.swal-modal .swal-footer {
+    text-align: center !important;
+}
+
+.address .select_box {
+    border: none;
+}
+
+select {
+    cursor: pointer !important;
+}
+
+.p-body .language-section .form-group .select-bx {
+    color: #495057 !important;
+}
+
+.p-body .requiredFieldClass{
+    font-size:23px;
+}
+
+.lblLocationPickStyle {
+    margin-left: 2px !important;
+    font-size: 16px !important;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.rdbLocationStyle{
+    cursor: pointer;
+}

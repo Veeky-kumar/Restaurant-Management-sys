@@ -1,0 +1,697 @@
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #5650BD;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #F6F6F6;
+}
+
+.owl-dots {
+    position: relative;
+    top: -35px;
+}
+
+.feat_icons_top {
+    position: absolute;
+    top: 8px;
+    z-index: 99;
+    display: inline-flex;
+    right: 47px;
+    width: 47px;
+}
+
+.icons_top {
+    margin: 0px 11px;
+}
+
+h1.main_head_res {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.head_timer {
+    display: block;
+    padding: 20px 20px 0px;
+}
+
+span.time_span {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #5A5B5D;
+    float: right;
+}
+
+img.timer_logo {
+    margin-right: 5px;
+}
+
+.store_button button {
+    border-radius: 63px;
+    color: #fff;
+    background-color: #5650BD;
+    font-size: 12px;
+    border: 1px solid #5650BD;
+    text-decoration: none;
+    width: 90px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 4px 0px 0px 30px
+}
+
+.tab_1 button {
+    border-radius: 63px;
+    color: #fff;
+    background-color: #5650BD;
+    font-size: 12px;
+    border: 1px solid #5650BD;
+    text-decoration: none;
+    width: 90px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 4px 0px 0px 19px;
+}
+
+.tab_2 button {
+    border-radius: 63px;
+    color: #5650BD;
+    background-color: #EFF3F9;
+    font-size: 12px;
+    text-decoration: none;
+    width: 90px;
+    height: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 4px 0px 0px 17px;
+    border: 0px solid transparent;
+}
+
+div.feat_main_tab {
+    flex-wrap: unset;
+}
+
+a.nav-link.active {
+    color: #495057;
+    background-color: #5650BD;
+    border-color: #f8f9fa #f8f9fa #f8f9fa;
+    border: 0px solid transparent;
+}
+
+a.nav-link {
+    color: #EFF3F9;
+    background-color: #fff;
+    border-color: #f8f9fa #f8f9fa #f8f9fa;
+    border: 0px solid transparent;
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid transparent;
+}
+
+.store_button {
+    padding-left: 22px;
+}
+
+a#nav-profile-tab {
+    padding-right: 17px;
+}
+
+li.nav-item.tab_2 {
+    margin-left: 14px;
+}
+
+.pizza_head p {
+    font-size: 12px;
+    color: #2E2B31;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tab-content {
+    padding-top: 25px;
+}
+
+.pizza_corner h3 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    /*padding: 22px 25px 15px 19px;*/
+    padding: 4px 25px 0px 0px;
+    margin-bottom: 0px;
+}
+
+hr.pizza_hr {
+    border: 1px solid #707070;
+    border-style: dashed;
+    position: relative;
+    /* top: 16px;*/
+    top: -10px;
+    width: 98%;
+    margin-bottom: 2px;
+    float: left;
+    margin-left: 2px;
+}
+
+.pro_list_main {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.pro_item_head {
+    width: 90%;
+}
+
+    .pro_item_head h3 {
+        font-size: 14px;
+        color: #4A4B4D;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+p.pro_item_desc {
+    font-size: 10px;
+    color: #7A7A7A;
+    border: 1px solid #00000000;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.1rem;
+    margin-bottom: 0px;
+}
+
+span.pro_item_type {
+    font-size: 12px;
+    color: #4A4B4D;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.pro_item_pri {
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #00000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    float: right;
+}
+
+.pro_item_head {
+    margin-left: 15px;
+}
+
+.quanity_wrap-wtc input {
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 12px;
+}
+
+.quanity_wrap-wtc .button-minus {
+    background: #EFF3F9;
+    border: 0px !important;
+    color: #5650BD;
+}
+
+.quanity_wrap-wtc .button-plus {
+    background: #5650BD;
+    border: 0px !important;
+    color: #fff;
+}
+
+.quanity_wrap-wtc .quantity_text {
+    color: #4A4B4D;
+    font-weight: 600;
+}
+
+.thali_sec {
+    padding-bottom: 20px;
+}
+
+.type_quan .quanity_wrap-wtc {
+    position: relative;
+    top: -20px;
+}
+
+.food_tabs-wraps {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background: #EFF3F9;
+    border-top: 2px solid #E4EBF5;
+    border-bottom: 2px solid #E4EBF5;
+}
+
+    .food_tabs-wraps p {
+        margin-bottom: 0px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    h1.main_head_res {
+        font-size: 20px;
+    }
+
+    span.time_span {
+        font-size: 15px;
+    }
+
+    .store_button button {
+        font-size: 14px;
+        width: 92px;
+        height: 32px;
+    }
+
+    .tab_1 button {
+        font-size: 14px;
+        height: 32px;
+    }
+
+    .tab_2 button {
+        font-size: 14px;
+        width: 100px;
+        height: 31px;
+    }
+
+    .pizza_head p {
+        font-size: 15px;
+    }
+
+    .pizza_corner h3 {
+        font-size: 20px;
+    }
+
+    .pro_item_head h3 {
+        font-size: 16px;
+    }
+
+    p.pro_item_desc {
+        font-size: 12px;
+    }
+
+    span.pro_item_type {
+        font-size: 14px;
+    }
+
+    span.pro_item_pri {
+        font-size: 16px;
+    }
+
+    .quanity_wrap-wtc input {
+        font-size: 14px;
+    }
+}
+
+.input-group.searh_inputs {
+    width: 55%;
+    position: absolute;
+    z-index: 9;
+    right: 16px;
+    top: 51px;
+}
+
+span.search_wraps {
+    cursor: pointer;
+}
+
+.horizental_wraps {
+    display: -webkit-inline-box;
+    width: 100%;
+    flex-wrap: inherit;
+    overflow-x: scroll;
+    background: #EFF3F9;
+    border-top: 2px solid #E4EBF5;
+    border-bottom: 2px solid #E4EBF5;
+}
+
+.wrap_links-list li {
+    margin: 0px 10px;
+}
+
+.food_tabs-wraps {
+    width: 130px !important;
+}
+
+li a.active_foodtab {
+    background: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+
+ul.wrap_links-list li {
+    padding: 0px 22px;
+}
+
+li a.active_foodtab {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.page-section {
+    padding: 0px 15px;
+}
+
+.pizza_corner {
+    /*padding-bottom: 15px;*/
+    padding-bottom: 2px;
+}
+
+.stickys {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9;
+    left: 0px;
+    background: #EFF3F9 !important;
+    border-top: 2px solid #E4EBF5 !important;
+    border-bottom: 2px solid #E4EBF5 !important;
+    height: 60px;
+    padding-bottom: 2px;
+    overflow-x: scroll;
+}
+
+button.btn.btn-secondary.search_button {
+    background: #5650BD;
+    border-color: #5650BD;
+}
+
+    button.btn.btn-secondary.search_button:focus {
+        background: #5650BD;
+        border-color: #5650BD;
+        outline: none;
+        box-shadow: none;
+    }
+
+    button.btn.btn-secondary.search_button:active {
+        background: #5650BD;
+        border-color: #5650BD;
+        outline: none;
+        box-shadow: none;
+    }
+
+nav.navigation_foods_wraps {
+    width: 100%;
+    background: #EFF3F9;
+}
+
+ul.wrap_links-list {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background: #EFF3F9;
+    border-top: 2px solid #E4EBF5;
+    border-bottom: 2px solid #E4EBF5;
+    padding-left: 0px;
+}
+
+    ul.wrap_links-list li {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+
+        ul.wrap_links-list li a {
+            font-size: 13px;
+            color: #2E2B31;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            padding: 12px 13px;
+        }
+
+            ul.wrap_links-list li a:hover {
+                text-decoration: none;
+            }
+
+div#pizza {
+    overflow: hidden;
+    height: 100%;
+}
+
+.foods_types {
+    height: 100%;
+}
+
+.wrap_hide_tabs {
+    display: none;
+}
+
+.pro_item_img {
+    position: relative;
+}
+
+span.count_itms {
+    position: absolute;
+    background: #fff;
+    right: 3px;
+    padding: 5px 13px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    bottom: 9px;
+}
+
+/******************************************menu css*********************************/
+
+.mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.menu {
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.slide-menu-right {
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+
+.toggle-slide-right {
+    color: #fff;
+    background: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: block;
+    margin-left: 15px;
+    padding: 10px;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+
+button.close-menu {
+    color: #fff;
+    background: transparent;
+    border: 0px;
+    border-radius: 5px;
+    display: block;
+    margin: 0px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+body.smr-open .slide-menu-right {
+    left: 0
+}
+
+button.toggle-slide-right {
+    width: fit-content;
+    background: transparent;
+    border: 0px;
+}
+
+.header_menus-wraps {
+    box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+}
+
+button.toggle-slide-right svg {
+    fill: #000;
+}
+
+button.toggle-slide-right {
+    text-align: left;
+}
+
+span.search_wraps svg path {
+    stroke: #000;
+}
+
+.icons_top.carts svg path {
+    stroke: #000;
+}
+
+.header_menus-wraps {
+    display: flex;
+    align-items: center;
+}
+
+    .header_menus-wraps h2 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        position: relative;
+        top: -2px;
+    }
+
+        .header_menus-wraps h2 a {
+            color: #000;
+        }
+
+            .header_menus-wraps h2 a: hover {
+                text-decoration: none;
+            }
+
+.opening_hours {
+    position: relative;
+}
+
+.restruant-all_details h3 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #5650BD;
+    font-family: 'Poppins', sans-serif;
+}
+
+.opening_hours {
+    padding-top: 25px;
+}
+
+p.wrap_conts {
+    padding-top: 35px;
+}
+
+.conts_wraps a {
+    color: #000;
+}
+
+.conts_wraps a {
+    font-size: 17px;
+}
+
+h5.conts_wraps {
+    padding-bottom: 20px;
+}
+
+h6.conts_wraps {
+    line-height: 2em;
+}
+
+.restruant_details {
+    padding: 20px;
+}
+
+.hide_quantity {
+    display: none;
+}
+
+.content_restarurnt {
+    padding-top: 6px;
+}
+
+.sticky_addtocart {
+    padding: 10px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 8px;
+    width: 100%;
+}
+
+    .sticky_addtocart p {
+        background: #000;
+        width: 85%;
+        margin: 0px auto;
+        padding: 20px 10px;
+        border-radius: 30px;
+    }
+
+svg.cartbottom_icon {
+    fill: #fff;
+    margin-left: 15px;
+}
+
+span.price_wrps {
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span.badges {
+    border: 1px solid #fff;
+    padding: 3px 13px 3px 12px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.cart_item_name a {
+    color: #4A4B4D;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_menus-wraps h2 a:hover {
+    text-decoration: none;
+}
+
+.header_menus-wraps h2 a:focus {
+    outline: none;
+}
+
+img.logo_restaurant {
+    width: 140px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 900px) {
+    .tab-content.content_restarurnt {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .sticky_addtocart p {
+        width: 35%;
+    }
+}
+
+.wrap_cart svg.cart_rap-icon path {
+    fill: #000;
+}
+
+.wrap_cart svg.cart_rap-icon line {
+    stroke: #000;
+}

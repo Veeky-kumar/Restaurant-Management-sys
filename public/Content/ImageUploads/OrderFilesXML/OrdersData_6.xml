@@ -1,0 +1,3513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50343</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>08/27/2024 19:20:55</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail>
+      <SubmitOrderPromoCodeDetail_VM>
+        <promoCodeId>11</promoCodeId>
+        <name>PromoCodeName</name>
+        <promoCode>PROMO20241</promoCode>
+        <discountValue>1.00</discountValue>
+        <discountValueInAmount>1.00</discountValueInAmount>
+        <discountValueTypeId>1</discountValueTypeId>
+        <fromDate>04/25/2024</fromDate>
+        <toDate>04/29/2024</toDate>
+        <transactionLimitValue>101</transactionLimitValue>
+        <transactionLimitTypeId>1</transactionLimitTypeId>
+        <priorityNumber>3</priorityNumber>
+      </SubmitOrderPromoCodeDetail_VM>
+    </orderPromoCodeDetail>
+    <orderThresholdDetail>
+      <thresholdId>1</thresholdId>
+      <thresholdAmount>50.00</thresholdAmount>
+      <discountValue>1.00</discountValue>
+      <discountValueInAmount>1.00</discountValueInAmount>
+      <discountValueTypeId>1</discountValueTypeId>
+      <fromDate>04/26/2024</fromDate>
+      <toDate>04/30/2024</toDate>
+      <transactionLimitValue>100</transactionLimitValue>
+      <transactionLimitTypeId>1</transactionLimitTypeId>
+      <priorityNumber>4</priorityNumber>
+    </orderThresholdDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50344</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>08/27/2024 19:22:11</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail>
+      <SubmitOrderPromoCodeDetail_VM>
+        <promoCodeId>11</promoCodeId>
+        <name>PromoCodeName</name>
+        <promoCode>PROMO20241</promoCode>
+        <discountValue>10.00</discountValue>
+        <discountValueInAmount>10.00</discountValueInAmount>
+        <discountValueTypeId>1</discountValueTypeId>
+        <fromDate>04/25/2024</fromDate>
+        <toDate>04/29/2024</toDate>
+        <transactionLimitValue>101</transactionLimitValue>
+        <transactionLimitTypeId>1</transactionLimitTypeId>
+        <priorityNumber>3</priorityNumber>
+      </SubmitOrderPromoCodeDetail_VM>
+    </orderPromoCodeDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50345</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>08/27/2024 19:24:16</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderThresholdDetail>
+      <thresholdId>1</thresholdId>
+      <thresholdAmount>50.00</thresholdAmount>
+      <discountValue>1.00</discountValue>
+      <discountValueInAmount>50.00</discountValueInAmount>
+      <discountValueTypeId>1</discountValueTypeId>
+      <fromDate>04/26/2024</fromDate>
+      <toDate>04/30/2024</toDate>
+      <transactionLimitValue>100</transactionLimitValue>
+      <transactionLimitTypeId>1</transactionLimitTypeId>
+      <priorityNumber>4</priorityNumber>
+    </orderThresholdDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50359</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/26/2024 10:40:53</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail>
+      <SubmitOrderPromoCodeDetail_VM>
+        <promoCodeId>11</promoCodeId>
+        <name>PromoCodeName</name>
+        <promoCode>PROMO20241</promoCode>
+        <discountValue>1.00</discountValue>
+        <discountValueInAmount>1.00</discountValueInAmount>
+        <discountValueTypeId>1</discountValueTypeId>
+        <fromDate>04/25/2024</fromDate>
+        <toDate>04/29/2024</toDate>
+        <transactionLimitValue>101</transactionLimitValue>
+        <transactionLimitTypeId>1</transactionLimitTypeId>
+        <priorityNumber>3</priorityNumber>
+      </SubmitOrderPromoCodeDetail_VM>
+    </orderPromoCodeDetail>
+    <orderThresholdDetail>
+      <thresholdId>1</thresholdId>
+      <thresholdAmount>50.00</thresholdAmount>
+      <discountValue>1.00</discountValue>
+      <discountValueInAmount>1.00</discountValueInAmount>
+      <discountValueTypeId>1</discountValueTypeId>
+      <fromDate>04/26/2024</fromDate>
+      <toDate>04/30/2024</toDate>
+      <transactionLimitValue>100</transactionLimitValue>
+      <transactionLimitTypeId>1</transactionLimitTypeId>
+      <priorityNumber>4</priorityNumber>
+    </orderThresholdDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50360</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/26/2024 11:40:49</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail>
+      <SubmitOrderPromoCodeDetail_VM>
+        <promoCodeId>11</promoCodeId>
+        <name>PromoCodeName</name>
+        <promoCode>PROMO20241</promoCode>
+        <discountValue>1.00</discountValue>
+        <discountValueInAmount>1.00</discountValueInAmount>
+        <discountValueTypeId>1</discountValueTypeId>
+        <fromDate>04/25/2024</fromDate>
+        <toDate>04/29/2024</toDate>
+        <transactionLimitValue>101</transactionLimitValue>
+        <transactionLimitTypeId>1</transactionLimitTypeId>
+        <priorityNumber>3</priorityNumber>
+      </SubmitOrderPromoCodeDetail_VM>
+    </orderPromoCodeDetail>
+    <orderThresholdDetail>
+      <thresholdId>1</thresholdId>
+      <thresholdAmount>50.00</thresholdAmount>
+      <discountValue>1.00</discountValue>
+      <discountValueInAmount>1.00</discountValueInAmount>
+      <discountValueTypeId>1</discountValueTypeId>
+      <fromDate>04/26/2024</fromDate>
+      <toDate>04/30/2024</toDate>
+      <transactionLimitValue>100</transactionLimitValue>
+      <transactionLimitTypeId>1</transactionLimitTypeId>
+      <priorityNumber>4</priorityNumber>
+    </orderThresholdDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50361</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>180</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/26/2024 11:48:11</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>This is the test order note</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <discountDetail>
+      <discountId>6</discountId>
+      <discountName>Sub Total Discount 2</discountName>
+      <discountTypeId>2</discountTypeId>
+      <discountTypeName>Sub Total Discount</discountTypeName>
+      <discountValue>3</discountValue>
+      <discountValueTypeId>1</discountValueTypeId>
+      <discountValueInAmount>20</discountValueInAmount>
+      <maxDiscountValue>25.99</maxDiscountValue>
+    </discountDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>246</productId>
+        <productName>SAMOSA</productName>
+        <productDescription />
+        <cost>2.50</cost>
+        <sellingPrice>5</sellingPrice>
+        <subDepartmentId>123</subDepartmentId>
+        <subDepartmentName>ENTRE</subDepartmentName>
+        <mainDepartmentId>98</mainDepartmentId>
+        <mainDepartmentName>Food</mainDepartmentName>
+        <productImageName>e0df7685dd42.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode />
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>5</finalProductAmount>
+        <printGroupId>3</printGroupId>
+        <printGroupName>Beverages</printGroupName>
+        <printGroupSequenceOrder>1</printGroupSequenceOrder>
+        <refundReason>Test single-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>3</discountId>
+          <discountName>Item Discount 1</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>5</discountValue>
+          <discountValueTypeId>1</discountValueTypeId>
+          <discountValueInAmount>34</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>1</productTypeId>
+        <modifiers>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>216</modifierId>
+            <modifierName>Addons</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>680</modifierOptionId>
+                <modifierOptionName>Chatni</modifierOptionName>
+                <price>2</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>681</modifierOptionId>
+                <modifierOptionName>Green Chatni</modifierOptionName>
+                <price>5</price>
+                <quantity>2</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+          <SubmitOrder_ProductModifierParams_VM>
+            <modifierId>217</modifierId>
+            <modifierName>Addons 2</modifierName>
+            <modifierOptions>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>690</modifierOptionId>
+                <modifierOptionName>Saus</modifierOptionName>
+                <price>5</price>
+                <quantity>4</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+              <SubmitOrder_ProductModifierOptionParams_VM>
+                <modifierOptionId>691</modifierOptionId>
+                <modifierOptionName>Green Saus</modifierOptionName>
+                <price>4</price>
+                <quantity>3</quantity>
+              </SubmitOrder_ProductModifierOptionParams_VM>
+            </modifierOptions>
+          </SubmitOrder_ProductModifierParams_VM>
+        </modifiers>
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>2 Samosa with 1 Spring Roll Combo</productName>
+        <productDescription>test description of combo</productDescription>
+        <cost>70</cost>
+        <sellingPrice>102</sellingPrice>
+        <subDepartmentId>125</subDepartmentId>
+        <subDepartmentName>INDIAN SWEET</subDepartmentName>
+        <mainDepartmentId>102</mainDepartmentId>
+        <mainDepartmentName>DESSERT</mainDepartmentName>
+        <productImageName>b8fd5e73048a.jpg</productImageName>
+        <productNumber>209</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_84963c89100a49de97e58b97eb4b3966.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>100</finalProductAmount>
+        <printGroupId>7</printGroupId>
+        <printGroupName>Print-Group 1</printGroupName>
+        <printGroupSequenceOrder>3</printGroupSequenceOrder>
+        <refundReason>Test combo-product reason</refundReason>
+        <productSplitNumber>1</productSplitNumber>
+        <discountDetail>
+          <discountId>4</discountId>
+          <discountName>Item Discount 2</discountName>
+          <discountTypeId>1</discountTypeId>
+          <discountTypeName>Item Discount</discountTypeName>
+          <discountValue>10</discountValue>
+          <discountValueTypeId>2</discountValueTypeId>
+          <discountValueInAmount>10</discountValueInAmount>
+          <maxDiscountValue>40.99</maxDiscountValue>
+        </discountDetail>
+        <productTypeId>2</productTypeId>
+        <comboOptions>
+          <SubmitOrder_ComboOption_Params_VM>
+            <comboOptionId>1</comboOptionId>
+            <comboOptionName>Any 2 Samosa</comboOptionName>
+            <minSelection>1</minSelection>
+            <maxSelection>2</maxSelection>
+            <isMandatory>1</isMandatory>
+            <defaultProductId>246</defaultProductId>
+            <sequenceOrder>1</sequenceOrder>
+            <includedProducts>
+              <SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+                <productId>246</productId>
+                <addOnPrice>0</addOnPrice>
+                <maxAllowed>2</maxAllowed>
+                <sequenceOrder>1</sequenceOrder>
+                <productName>SAMOSA</productName>
+                <productDescription />
+                <cost>5.50</cost>
+                <sellingPrice>10</sellingPrice>
+                <subDepartmentId>125</subDepartmentId>
+                <subDepartmentName>INDIAN SWEET</subDepartmentName>
+                <mainDepartmentId>102</mainDepartmentId>
+                <mainDepartmentName>DESSERT</mainDepartmentName>
+                <productImageName>e0df7685dd42.jpg</productImageName>
+                <productNumber>1</productNumber>
+                <productBarcode />
+                <productBarcodeImageName />
+                <quantity>1</quantity>
+                <additionalNote>not much spicy</additionalNote>
+                <modifiers>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>216</modifierId>
+                    <modifierName>Addons</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>1</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>680</modifierOptionId>
+                        <modifierOptionName>Chatni</modifierOptionName>
+                        <price>2</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>1</isDefaultPreSelectedOption>
+                        <quantity>5</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>681</modifierOptionId>
+                        <modifierOptionName>Chatni Green</modifierOptionName>
+                        <price>5</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>4</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                  <SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                    <modifierId>217</modifierId>
+                    <modifierName>Addons 222</modifierName>
+                    <minSelection>1</minSelection>
+                    <maxSelection>10</maxSelection>
+                    <isMandatory>0</isMandatory>
+                    <modifierOptions>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>690</modifierOptionId>
+                        <modifierOptionName>Saus</modifierOptionName>
+                        <price>4</price>
+                        <maxAllowed>10</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>2</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                      <SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                        <modifierOptionId>691</modifierOptionId>
+                        <modifierOptionName>Saus Green</modifierOptionName>
+                        <price>8</price>
+                        <maxAllowed>7</maxAllowed>
+                        <isDefaultPreSelectedOption>0</isDefaultPreSelectedOption>
+                        <quantity>3</quantity>
+                      </SubmitOrder_ComboOptionIncludedProductModifierOptions_Params_VM>
+                    </modifierOptions>
+                  </SubmitOrder_ComboOptionIncludedProductModifiers_Params_VM>
+                </modifiers>
+              </SubmitOrder_ComboOptionIncludedProduct_Params_VM>
+            </includedProducts>
+          </SubmitOrder_ComboOption_Params_VM>
+        </comboOptions>
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail>
+      <SubmitOrderPromoCodeDetail_VM>
+        <promoCodeId>11</promoCodeId>
+        <name>PromoCodeName</name>
+        <promoCode>PROMO20241</promoCode>
+        <discountValue>1.00</discountValue>
+        <discountValueInAmount>1.00</discountValueInAmount>
+        <discountValueTypeId>1</discountValueTypeId>
+        <fromDate>04/25/2024</fromDate>
+        <toDate>04/29/2024</toDate>
+        <transactionLimitValue>101</transactionLimitValue>
+        <transactionLimitTypeId>1</transactionLimitTypeId>
+        <priorityNumber>3</priorityNumber>
+      </SubmitOrderPromoCodeDetail_VM>
+    </orderPromoCodeDetail>
+    <orderThresholdDetail>
+      <thresholdId>1</thresholdId>
+      <thresholdAmount>50.00</thresholdAmount>
+      <discountValue>1.00</discountValue>
+      <discountValueInAmount>1.00</discountValueInAmount>
+      <discountValueTypeId>1</discountValueTypeId>
+      <fromDate>04/26/2024</fromDate>
+      <toDate>04/30/2024</toDate>
+      <transactionLimitValue>100</transactionLimitValue>
+      <transactionLimitTypeId>1</transactionLimitTypeId>
+      <priorityNumber>4</priorityNumber>
+    </orderThresholdDetail>
+    <orderSplitPaymentData>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>1</splitPaymentNumber>
+        <splitPaymentAmount>65</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>45</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>45</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>45</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:32:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0.00</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>103</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>40</totalAmount>
+            <productSplitNumber>1</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>100</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>25</totalAmount>
+            <productSplitNumber>2</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+      <SubmitOrder_SplitPaymentDataParams_VM>
+        <splitPaymentNumber>2</splitPaymentNumber>
+        <splitPaymentAmount>20</splitPaymentAmount>
+        <splitPaymentDetail>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>8</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>9</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>3</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>EFTPOS</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+          <SubmitOrder_SplitPaymentDetail_Params_VM>
+            <paymentStatusId>4</paymentStatusId>
+            <splitPaymentParts>
+              <SubmitOrder_OrderPaymentDetail_Params_VM>
+                <amount>20</amount>
+                <paymentTypeId>1</paymentTypeId>
+                <paymentDate>08/25/2023</paymentDate>
+                <paymentTime>16:30:40</paymentTime>
+                <receivedAmount>20</receivedAmount>
+                <balanceAmount>0</balanceAmount>
+                <reference />
+                <amountBeforeRounding>20</amountBeforeRounding>
+                <roundingAmountValue>0</roundingAmountValue>
+                <tenderTypeDetail>
+                  <tenderTypeName>CASH</tenderTypeName>
+                  <tenderTypeSurcharges>1.02</tenderTypeSurcharges>
+                  <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+                  <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+                  <roundingEnabled>0</roundingEnabled>
+                  <showInBankingReportEnabled>1</showInBankingReportEnabled>
+                  <openCashDrawerEnabled>0</openCashDrawerEnabled>
+                  <eftposEnabled>0</eftposEnabled>
+                  <forceRefferenceEnabled>0</forceRefferenceEnabled>
+                </tenderTypeDetail>
+              </SubmitOrder_OrderPaymentDetail_Params_VM>
+            </splitPaymentParts>
+          </SubmitOrder_SplitPaymentDetail_Params_VM>
+        </splitPaymentDetail>
+        <splitProducts>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>10</productId>
+            <productTypeId>2</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>3</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+          <SubmitOrder_SplitProduct_Params_VM>
+            <productId>-1</productId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <totalAmount>10</totalAmount>
+            <productSplitNumber>4</productSplitNumber>
+          </SubmitOrder_SplitProduct_Params_VM>
+        </splitProducts>
+      </SubmitOrder_SplitPaymentDataParams_VM>
+    </orderSplitPaymentData>
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50363</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>135.55</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/27/2024 12:09:12</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>-</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:30:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>20</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>08/25/2023</paymentDate>
+        <paymentTime>16:32:40</paymentTime>
+        <receivedAmount>20</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>39.96</amountBeforeRounding>
+        <roundingAmountValue>0.04</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>1.02</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>0</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>Lichi Juice</productName>
+        <productDescription>This is the testing description of product of Lichi Juice</productDescription>
+        <cost>1</cost>
+        <sellingPrice>45.55</sellingPrice>
+        <subDepartmentId>1</subDepartmentId>
+        <subDepartmentName>22 Banana Shake</subDepartmentName>
+        <mainDepartmentId>7</mainDepartmentId>
+        <mainDepartmentName>Juice Recipes</mainDepartmentName>
+        <productImageName>d0c30767bbd6.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode>22222</productBarcode>
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>45.55</finalProductAmount>
+        <printGroupId>30</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>3</productId>
+        <productName>Mix Juice 222</productName>
+        <productDescription>test 222222222</productDescription>
+        <cost>0</cost>
+        <sellingPrice>90.00</sellingPrice>
+        <subDepartmentId>53</subDepartmentId>
+        <subDepartmentName>Fast Food</subDepartmentName>
+        <mainDepartmentId>2</mainDepartmentId>
+        <mainDepartmentName>Veg Recipes</mainDepartmentName>
+        <productImageName />
+        <productNumber>3</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_c3d1e88a69e2488b8f2ae55e4c776d75.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>90.00</finalProductAmount>
+        <printGroupId>0</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderSplitPaymentData />
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50364</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>0</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>135.55</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/27/2024 12:13:39</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>1</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>-</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>100</amount>
+        <paymentTypeId>1</paymentTypeId>
+        <paymentDate>09/27/2023</paymentDate>
+        <paymentTime>17:41:40</paymentTime>
+        <receivedAmount>500</receivedAmount>
+        <balanceAmount>400</balanceAmount>
+        <reference />
+        <amountBeforeRounding>100</amountBeforeRounding>
+        <roundingAmountValue>0.00</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>Cash</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>0</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>1</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>35.55</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>09/27/2023</paymentDate>
+        <paymentTime>17:42:40</paymentTime>
+        <receivedAmount>35.55</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>35.55</amountBeforeRounding>
+        <roundingAmountValue>0.00</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>0</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>1</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>Lichi Juice</productName>
+        <productDescription>This is the testing description of product of Lichi Juice</productDescription>
+        <cost>1</cost>
+        <sellingPrice>45.55</sellingPrice>
+        <subDepartmentId>1</subDepartmentId>
+        <subDepartmentName>22 Banana Shake</subDepartmentName>
+        <mainDepartmentId>7</mainDepartmentId>
+        <mainDepartmentName>Juice Recipes</mainDepartmentName>
+        <productImageName>d0c30767bbd6.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode>22222</productBarcode>
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>45.55</finalProductAmount>
+        <printGroupId>30</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+      <SubmitOrder_ProductParams_VM>
+        <productId>3</productId>
+        <productName>Mix Juice 222</productName>
+        <productDescription>test 222222222</productDescription>
+        <cost>0</cost>
+        <sellingPrice>90.00</sellingPrice>
+        <subDepartmentId>53</subDepartmentId>
+        <subDepartmentName>Fast Food</subDepartmentName>
+        <mainDepartmentId>2</mainDepartmentId>
+        <mainDepartmentName>Veg Recipes</mainDepartmentName>
+        <productImageName />
+        <productNumber>3</productNumber>
+        <productBarcode />
+        <productBarcodeImageName>barcodeeeeeee_c3d1e88a69e2488b8f2ae55e4c776d75.png</productBarcodeImageName>
+        <quantity>1</quantity>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>90.00</finalProductAmount>
+        <printGroupId>0</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderSplitPaymentData />
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>50364</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>90.00</refundAmount>
+        <gstPercentage>15</gstPercentage>
+        <gstAmount>13.04</gstAmount>
+        <refundProducts>
+          <OrderRefund_ProductItems_Params_VM>
+            <orderProductItemId>464</orderProductItemId>
+            <orderComboProductItemId>0</orderComboProductItemId>
+            <productTypeId>1</productTypeId>
+            <quantity>1</quantity>
+            <amount>90.00</amount>
+            <refundReason>test reason 123</refundReason>
+          </OrderRefund_ProductItems_Params_VM>
+        </refundProducts>
+        <refundOrderPaymentDetail>
+          <OrderRefund_PaymentDetail_Params_VM>
+            <amount>90.00</amount>
+            <paymentTypeId>1</paymentTypeId>
+            <paymentDate>09/27/2024</paymentDate>
+            <paymentTime>17:50:30</paymentTime>
+            <receivedAmount>100</receivedAmount>
+            <balanceAmount>10</balanceAmount>
+            <amountBeforeRounding>0</amountBeforeRounding>
+            <roundingAmountValue>0</roundingAmountValue>
+          </OrderRefund_PaymentDetail_Params_VM>
+        </refundOrderPaymentDetail>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50365</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>1</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>30</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/27/2024 12:56:48</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>-</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>30</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>09/27/2023</paymentDate>
+        <paymentTime>17:42:40</paymentTime>
+        <receivedAmount>30</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>30</amountBeforeRounding>
+        <roundingAmountValue>0.00</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>0</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>1</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>Lichi Juice</productName>
+        <productDescription>This is the testing description of product of Lichi Juice</productDescription>
+        <cost>1</cost>
+        <sellingPrice>30</sellingPrice>
+        <subDepartmentId>1</subDepartmentId>
+        <subDepartmentName>22 Banana Shake</subDepartmentName>
+        <mainDepartmentId>7</mainDepartmentId>
+        <mainDepartmentName>Juice Recipes</mainDepartmentName>
+        <productImageName>d0c30767bbd6.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode>22222</productBarcode>
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>30</finalProductAmount>
+        <printGroupId>30</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderSplitPaymentData />
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50366</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>1</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>2</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/27/2024 13:22:54</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>-</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>2</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>09/27/2023</paymentDate>
+        <paymentTime>17:42:40</paymentTime>
+        <receivedAmount>2</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>2</amountBeforeRounding>
+        <roundingAmountValue>0.00</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>0</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>1</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>Lichi Juice</productName>
+        <productDescription>This is the testing description of product of Lichi Juice</productDescription>
+        <cost>1</cost>
+        <sellingPrice>2</sellingPrice>
+        <subDepartmentId>1</subDepartmentId>
+        <subDepartmentName>22 Banana Shake</subDepartmentName>
+        <mainDepartmentId>7</mainDepartmentId>
+        <mainDepartmentName>Juice Recipes</mainDepartmentName>
+        <productImageName>d0c30767bbd6.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode>22222</productBarcode>
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>2</finalProductAmount>
+        <printGroupId>30</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderSplitPaymentData />
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+  <SubmitOrderParams_VM xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <orderId>50367</orderId>
+    <restaurantLoginId>6</restaurantLoginId>
+    <isRefundOrder>1</isRefundOrder>
+    <isPayAtCounter>0</isPayAtCounter>
+    <payAtCounterRowId>0</payAtCounterRowId>
+    <orderTotalAmount>2</orderTotalAmount>
+    <orderPaymentTypeId>1</orderPaymentTypeId>
+    <orderTypeId>2</orderTypeId>
+    <orderPlatformId>3</orderPlatformId>
+    <tableId>0</tableId>
+    <tableNumber>0</tableNumber>
+    <tableName />
+    <discountTypeId>1</discountTypeId>
+    <discountValue>0</discountValue>
+    <GSTPercentage>15</GSTPercentage>
+    <GSTValue>17.35</GSTValue>
+    <orderId_Local>2</orderId_Local>
+    <balanceChange>Balance Change value is : 400</balanceChange>
+    <pagerNumber>1</pagerNumber>
+    <orderSplitPaymentTypeId>0</orderSplitPaymentTypeId>
+    <ExactOrderDateTime_BackendOnly>09/27/2024 13:23:07</ExactOrderDateTime_BackendOnly>
+    <ExactOrderDateTime_DateTime_BackendOnly>0001-01-01T00:00:00</ExactOrderDateTime_DateTime_BackendOnly>
+    <hasNormalRefund_OnOrder_BackendOnly>0</hasNormalRefund_OnOrder_BackendOnly>
+    <orderNote>-</orderNote>
+    <customerDetail>
+      <customerName>Customer 1</customerName>
+    </customerDetail>
+    <orderPaymentDetail>
+      <SubmitOrder_OrderPaymentDetail_Params_VM>
+        <amount>2</amount>
+        <paymentTypeId>3</paymentTypeId>
+        <paymentDate>09/27/2023</paymentDate>
+        <paymentTime>17:42:40</paymentTime>
+        <receivedAmount>2</receivedAmount>
+        <balanceAmount>0</balanceAmount>
+        <reference />
+        <amountBeforeRounding>2</amountBeforeRounding>
+        <roundingAmountValue>0.00</roundingAmountValue>
+        <tenderTypeDetail>
+          <tenderTypeName>EFTPOS</tenderTypeName>
+          <tenderTypeSurcharges>0.00</tenderTypeSurcharges>
+          <tenderTypeSurchargesInAmount>0</tenderTypeSurchargesInAmount>
+          <tenderTypeSurchargesValueTypeId>1</tenderTypeSurchargesValueTypeId>
+          <roundingEnabled>0</roundingEnabled>
+          <showInBankingReportEnabled>1</showInBankingReportEnabled>
+          <openCashDrawerEnabled>0</openCashDrawerEnabled>
+          <eftposEnabled>0</eftposEnabled>
+          <forceRefferenceEnabled>0</forceRefferenceEnabled>
+        </tenderTypeDetail>
+      </SubmitOrder_OrderPaymentDetail_Params_VM>
+    </orderPaymentDetail>
+    <products>
+      <SubmitOrder_ProductParams_VM>
+        <productId>1</productId>
+        <productName>Lichi Juice</productName>
+        <productDescription>This is the testing description of product of Lichi Juice</productDescription>
+        <cost>1</cost>
+        <sellingPrice>2</sellingPrice>
+        <subDepartmentId>1</subDepartmentId>
+        <subDepartmentName>22 Banana Shake</subDepartmentName>
+        <mainDepartmentId>7</mainDepartmentId>
+        <mainDepartmentName>Juice Recipes</mainDepartmentName>
+        <productImageName>d0c30767bbd6.jpg</productImageName>
+        <productNumber>1</productNumber>
+        <productBarcode>22222</productBarcode>
+        <productBarcodeImageName />
+        <quantity>1</quantity>
+        <additionalNote>not much spicy</additionalNote>
+        <discountTypeId>1</discountTypeId>
+        <discountValue>0</discountValue>
+        <finalProductAmount>2</finalProductAmount>
+        <printGroupId>30</printGroupId>
+        <printGroupName />
+        <printGroupSequenceOrder>0</printGroupSequenceOrder>
+        <refundReason />
+        <productSplitNumber>0</productSplitNumber>
+        <productTypeId>1</productTypeId>
+        <modifiers />
+      </SubmitOrder_ProductParams_VM>
+    </products>
+    <orderPromoCodeDetail />
+    <orderSplitPaymentData />
+    <normalOrderRefund_Data>
+      <OrderRefund_Via_ServiceApp_Params_VM>
+        <orderId>0</orderId>
+        <restaurantLoginId>0</restaurantLoginId>
+        <refundAmount>0</refundAmount>
+        <gstPercentage>0</gstPercentage>
+        <gstAmount>0</gstAmount>
+      </OrderRefund_Via_ServiceApp_Params_VM>
+    </normalOrderRefund_Data>
+  </SubmitOrderParams_VM>
+</Orders>

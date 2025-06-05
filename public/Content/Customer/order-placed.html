@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Panel</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/mobile_panel.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<section class="inner-banner">
+		<div class="col-md-12 col-lg-12 col-sm-12">
+			<div class="row">
+				<div class="col-sm-2 col-2">
+					<a href="" id="back_wrap-button"><img src="imgs/back-button.png" alt="back-button" class="back-buttons"></a>
+				</div>
+				<div class="col-sm-8 col-8">
+					<h3 class="modifires-wrap">Order Placed</h3>
+				</div>
+				<div class="col-sm-2 col-2">
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section class="wrap_modifires">
+		<div class="col-md-12 col-lg-12 col-sm-12">
+			<div class="wrap_orderplaced">
+				<div class="success_image">
+					<img src="imgs/success.png">
+				</div>
+				<h4>Order placed successfully</h4>
+				<p>Thanks for placing the order. You will get your food within 30 minutes. Please check your email for order status.</p>
+			</div>
+		</div>
+		
+	</section>
+</body>
+</html>
+
+<script type="text/javascript">
+	function incrementValue(e) {
+        e.preventDefault();
+        var fieldName = $(e.target).data('field');
+        var parent = $(e.target).closest('div');
+        var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+        if (!isNaN(currentVal)) {
+            parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
+        } else {
+            parent.find('input[name=' + fieldName + ']').val(0);
+        }
+    }
+
+    function decrementValue(e) {
+        e.preventDefault();
+        var fieldName = $(e.target).data('field');
+        var parent = $(e.target).closest('div');
+        var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+
+        if (!isNaN(currentVal) && currentVal > 0) {
+            parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
+        } else {
+            parent.find('input[name=' + fieldName + ']').val(0);
+        }
+    }
+
+    $('.input-group').on('click', '.button-plus', function(e) {
+        incrementValue(e);
+    });
+
+    $('.input-group').on('click', '.button-minus', function(e) {
+        decrementValue(e);
+    });
+
+</script>
+
+<script type="text/javascript">
+	$("#back_wrap-button").click(function(event) {
+    event.preventDefault();
+    history.back(1);
+});
+</script>

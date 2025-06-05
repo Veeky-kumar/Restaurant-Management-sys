@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Orbit360 Restaurant </title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="bootstrap/jquery.slim.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <!-- partial -->
+      <div class="main-panel modifiers_wrap-main" style="position: relative;">
+        <div class="topbar topbar_wraps-div">
+          <div class="me-3 modifiers_wraps">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12.729" height="21.629" viewBox="0 0 12.729 21.629">
+              <path id="Vector" d="M12.729,1.914,10.814,0,0,10.814,10.814,21.629l1.914-1.914-8.9-8.9Z" fill="#5650bd"/>
+            </svg>
+            </button>
+          </div>
+          <p class="modifires_wraps-text">Modifiers Setup</p>
+        </div>
+        <div class="wraps_screen-full content-wrapper">
+         <div class="col-md-12 col-lg-12 col-sm-12">
+          <div class="row">
+             <div class="col-md-4 col-lg-4" style="padding: 0px;">
+              <div class="wrao_sidebrs">
+               <div class="wrao_sidebrs-flex">
+                 <div class="btn-group btn-group1 mr-4 filter_searchs">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="show"></span>
+                    </button>
+                  <div class="dropdown-menu dropdown-menu-right dropdown1">
+                    <button id="default-option" class="dropdown-item" type="button">Category</button>
+                    <button class="dropdown-item" type="button">Atlases</button>
+                    <button class="dropdown-item" type="button">Surfaces</button>
+                    <button class="dropdown-item" type="button">Reference</button>
+                    <button class="dropdown-item" type="button">Tutorials</button>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  jQuery('.dropdown1 button').on('click', function(){
+                      jQuery('#show').text($(this).text());
+                  });
+
+                  jQuery(document).ready(function() {
+                    jQuery('#show').text(jQuery(".dropdown1 button[id='default-option']").text());
+                  });
+                </script>
+
+                <div class="input-group search_wrap-products">
+                  <input class="form-control" type="search" placeholder="Search Product" id="example-search-input">
+                  <span class="input-group-append">
+                      <button class="btn btn-outline-secondary srch_wrap-button" type="button">
+                          <i class="fa fa-search"></i>
+                      </button>
+                  </span>
+                </div>
+
+                <div class="icon_fierimg">
+                  <img src="icons/vertical-manu.png" alt="vertical_menu">
+                </div>
+               </div>
+               <table class="table">
+                    <thead>
+                      <tr>
+                        <th class="code">Code</th>
+                        <th class="item">Items</th>
+                        <th class="price">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="code">1.</td>
+                        <td class="item">GARLIC NAAN</td>
+                        <td class="price">$2.99</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <div class="sidebar_ul-nav_tabs">
+                  <ul class="nav nav-pills footer_nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="pill" href="#button_tab">Button</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#color_tabs">Color & image</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="pill" href="#fonts_tabs">Fonts</a>
+                    </li>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div id="button_tab" class="container tab-pane active"><br>
+                      <div class="set_up-button">
+                        <p>Setup button 
+                          <span class="setup_button-checkbox">
+                            <label class="switch round_wraps">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                            </label>
+                          </span>
+                        </p>
+                        <p>Move Button 
+                          <span class="setup_button-checkbox">
+                            <label class="switch round_wraps">
+                                    <input type="checkbox" checked="">
+                                    <span class="slider round"></span>
+                            </label>
+                          </span>
+                        </p>
+
+                        <p>Copy Button
+                          <span class="setup_button-checkbox">
+                            <label class="switch round_wraps">
+                                    <input type="checkbox" checked="">
+                                    <span class="slider round"></span>
+                            </label>
+                          </span>
+                        </p>
+
+                        <p>Copy Style
+                          <span class="setup_button-checkbox">
+                            <label class="switch round_wraps">
+                                    <input type="checkbox" checked="">
+                                    <span class="slider round"></span>
+                            </label>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div id="color_tabs" class="container tab-pane fade"><br>
+                      <h3>Menu 1</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="fonts_tabs" class="container tab-pane fade"><br>
+                      <h3>Menu 2</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="col-md-8 col-lg-8">
+               <div class="product_main-wrap">
+                 <div class="product_wrap-heading">
+                  <div class="wrap_icon-cup">
+                    <p class="icon_cup"><img src="icons/fast-food.png" alt="fast-food" class="fast_food-wrap"></p>
+                  </div>
+                   
+                   <div class="wrap_product-name">
+                    <h4>Product name</h4>
+                   </div>
+
+                   <div class="modifier_pizza-wrap">
+                     <p>Pizza Sub modifier
+                          <span class="pizza-wrap-checkbox">
+                            <label class="switch round_wraps">
+                                    <input type="checkbox" checked="">
+                                    <span class="slider round"></span>
+                            </label>
+                          </span>
+                        </p>
+                        <p class="wrap_product-prices"><span class="product_price">$ 5.99</span></p>
+                   </div>
+                 </div>
+
+                 <div class="wrap-product_main">
+                   <ul class="timeline">
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge">1</div>
+                        <div class="timeline-panel">
+                          <div class="">
+                            <div class="timeline-heading">
+                              <div class="faq " data-component="Faq ">
+                                      <div class="faq__grid__faqs ">
+                                          <details class="faq__grid__faqs__faq " open>
+                                              <summary class="faq__grid__faqs__faq__button " data-category="faq " data-label="¿Cuánto tiempo dura la sesión? ">
+                                                  <div class="faq__grid__faqs__faq__button__content ">
+                                                      <div class="heading_text-wraps ">
+                                                          <div class="title_faq_wrap">
+                                                            <div class="head_title">SIZE</div>
+                                                          </div>
+                                                          <div class="other_wrap-all">
+                                                            <label>Min</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <label>Max</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <p class="default_value-wrsp">Default Item</p>
+                                                            <div class="faq__grid__faqs__faq__button__arrow ">
+                                                          <svg width="19 " height="12 " viewBox="0 0 19 12 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                                          <path d="M16.385 0.884766L9.5 7.75477L2.615 0.884766L0.5 2.99977L9.5 11.9998L18.5 2.99977L16.385 0.884766Z " fill="#1A73E8 "/>
+                                                        </svg>
+                                                      </div>
+                                                          </div>
+                                                      </div>
+                                                      
+                                                  </div>
+                                              </summary>
+                                              <div class="faq__grid__faqs__faq__body ">
+                                                 <div class="wraps_content-etc">
+                                                    <div class="item-type_wrap">
+                                                      <div class="type_wrapper-item">
+                                                        <p>Small</p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>MEDIUM <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>LARGE <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p><a href="#"><span class="add_item-css"><i class="fa fa-plus" aria-hidden="true"></i></span></a></p>
+                                                       
+                                                      </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                          </details>
+                                      </div>
+                                  </div>
+                              </div>
+
+                            </div>
+                          </div>
+                      </li>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge">2</div>
+                        <div class="timeline-panel">
+                          <div class="">
+                            <div class="timeline-heading">
+                              <div class="faq " data-component="Faq ">
+                                      <div class="faq__grid__faqs ">
+                                          <details class="faq__grid__faqs__faq ">
+                                              <summary class="faq__grid__faqs__faq__button " data-category="faq " data-label="¿Cuánto tiempo dura la sesión? ">
+                                                  <div class="faq__grid__faqs__faq__button__content ">
+                                                      <div class="heading_text-wraps ">
+                                                          <div class="title_faq_wrap">
+                                                            <div class="head_title">MILK</div>
+                                                          </div>
+                                                          <div class="other_wrap-all tab_closed-collpes-wraps">
+                                                            <label>Min</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <label>Max</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <p class="default_value-wrsp">Choose Item 1</p>
+                                                            <div class="faq__grid__faqs__faq__button__arrow ">
+                                                          <svg width="19 " height="12 " viewBox="0 0 19 12 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                                          <path d="M16.385 0.884766L9.5 7.75477L2.615 0.884766L0.5 2.99977L9.5 11.9998L18.5 2.99977L16.385 0.884766Z " fill="#1A73E8 "/>
+                                                        </svg>
+                                                      </div>
+                                                          </div>
+                                                      </div>
+                                                      
+                                                  </div>
+                                              </summary>
+                                              <div class="faq__grid__faqs__faq__body ">
+                                                 <div class="wraps_content-etc">
+                                                    <div class="item-type_wrap">
+                                                      <div class="type_wrapper-item">
+                                                        <p>Small</p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>MEDIUM <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>LARGE <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p><a href="#"><span class="add_item-css"><i class="fa fa-plus" aria-hidden="true"></i></span></a></p>
+                                                       
+                                                      </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                          </details>
+                                      </div>
+                                  </div>
+                              </div>
+
+                            </div>
+                          </div>
+                      </li>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge">3</div>
+                        <div class="timeline-panel">
+                          <div class="">
+                            <div class="timeline-heading">
+                              <div class="faq " data-component="Faq ">
+                                      <div class="faq__grid__faqs ">
+                                          <details class="faq__grid__faqs__faq ">
+                                              <summary class="faq__grid__faqs__faq__button " data-category="faq " data-label="¿Cuánto tiempo dura la sesión? ">
+                                                  <div class="faq__grid__faqs__faq__button__content ">
+                                                      <div class="heading_text-wraps ">
+                                                          <div class="title_faq_wrap">
+                                                            <div class="head_title">MILK</div>
+                                                          </div>
+                                                          <div class="other_wrap-all tab_closed-collpes-wraps">
+                                                            <label>Min</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <label>Max</label>
+                                                            <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+
+                                                            <p class="default_value-wrsp">Choose Item 1</p>
+                                                            <div class="faq__grid__faqs__faq__button__arrow ">
+                                                          <svg width="19 " height="12 " viewBox="0 0 19 12 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                                          <path d="M16.385 0.884766L9.5 7.75477L2.615 0.884766L0.5 2.99977L9.5 11.9998L18.5 2.99977L16.385 0.884766Z " fill="#1A73E8 "/>
+                                                        </svg>
+                                                      </div>
+                                                          </div>
+                                                      </div>
+                                                      
+                                                  </div>
+                                              </summary>
+                                              <div class="faq__grid__faqs__faq__body ">
+                                                 <div class="wraps_content-etc">
+                                                    <div class="item-type_wrap">
+                                                      <div class="type_wrapper-item">
+                                                        <p>Small</p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>MEDIUM <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p>LARGE <span class="price-item_qyantity">+$O.50</span></p>
+                                                        <div class="wrapper_type-value">
+                                                          <label>Max Allow</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="1" name="min_value">
+                                                          <div class="clear"></div>
+                                                          <label>Price</label>
+                                                          <input type="text" class="form-control min_max-value" id="min_value" value="0.00" name="min_value">
+                                                          <div class="clear"></div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="type_wrapper-item">
+                                                        <p><a href="#"><span class="add_item-css"><i class="fa fa-plus" aria-hidden="true"></i></span></a></p>
+                                                       
+                                                      </div>
+                                                    </div>
+                                                 </div>
+                                              </div>
+                                          </details>
+                                      </div>
+                                  </div>
+                              </div>
+
+                            </div>
+                          </div>
+                      </li>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge">4</div>
+                        <div class="timeline-panel">
+                          <div class="">
+                            <div class="timeline-heading">
+                              <div class="faq " data-component="Faq ">
+                                      <div class="faq__grid__faqs ">
+                                          <details class="faq__grid__faqs__faq ">
+                                              <summary class="faq__grid__faqs__faq__button " data-category="faq " data-label="¿Cuánto tiempo dura la sesión? ">
+                                                  <div class="faq__grid__faqs__faq__button__content ">
+                                                      <div class="heading_text-wraps ">
+                                                          <div class="title_faq_wrap">
+                                                            <div class="head_title">ADD TEXT HERE</div>
+                                                          </div>
+                                                      </div>
+                                                      
+                                                  </div>
+                                              </summary>
+                                              <div class="faq__grid__faqs__faq__body ">
+                                              </div>
+                                          </details>
+                                      </div>
+                                  </div>
+                              </div>
+
+                            </div>
+                          </div>
+                      </li>
+                    
+                    </ul>
+                 </div>
+               </div>
+             </div>
+          </div>
+         </div>
+      </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <!-- <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
+          </div>
+        </footer> -->
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="vendors/progressbar.js/progressbar.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+

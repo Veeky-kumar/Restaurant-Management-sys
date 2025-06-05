@@ -1,0 +1,144 @@
+/* Breadcrumbs CSS */
+
+.breadcrumb {
+    border: 1px solid #ddd;
+  }
+  
+  .breadcrumb .breadcrumb-item {
+    font-size: 14px;
+  }
+  
+  .breadcrumb .breadcrumb-custom {
+    padding: 8px 16px;
+    border-color: #f1f1f1;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item {
+    font-size: 14px;
+    background: #f1f1f1;
+    padding: 6px 12px;
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item:last-child {
+    background: transparent;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item:before {
+    content: "";
+    padding-right: 0;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item a {
+    position: relative;
+    color: inherit;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item a:before,
+  .breadcrumb .breadcrumb-custom .breadcrumb-item a:after {
+    position: absolute;
+    top: -9px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item a:before {
+    right: -22px;
+    z-index: 3;
+    border-left-color: #f1f1f1;
+    border-left-style: solid;
+    border-left-width: 12px;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item a:after {
+    border-top: 21px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 12px solid white;
+    top: -9px;
+    right: -23px;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item span {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .breadcrumb .breadcrumb-custom .breadcrumb-item > .breadcrumb-item {
+    padding-right: 0;
+  }
+  
+  .breadcrumb .bg-success,
+  .breadcrumb .bg-dark,
+  .breadcrumb .bg-danger,
+  .breadcrumb .bg-warning,
+  .breadcrumb .bg-primary,
+  .breadcrumb .bg-info {
+    border: none;
+  }
+  
+  .breadcrumb .bg-success .breadcrumb-item,
+  .breadcrumb .bg-dark .breadcrumb-item,
+  .breadcrumb .bg-danger .breadcrumb-item,
+  .breadcrumb .bg-warning .breadcrumb-item,
+  .breadcrumb .bg-primary .breadcrumb-item,
+  .breadcrumb .bg-info .breadcrumb-item {
+    color: white;
+  }
+  
+  .breadcrumb .bg-success .breadcrumb-item:before,
+  .breadcrumb .bg-dark .breadcrumb-item:before,
+  .breadcrumb .bg-danger .breadcrumb-item:before,
+  .breadcrumb .bg-warning .breadcrumb-item:before,
+  .breadcrumb .bg-primary .breadcrumb-item:before,
+  .breadcrumb .bg-info .breadcrumb-item:before {
+    color: inherit;
+  }
+  
+  .breadcrumb .bg-success .breadcrumb-item a,
+  .breadcrumb .bg-dark .breadcrumb-item a,
+  .breadcrumb .bg-danger .breadcrumb-item a,
+  .breadcrumb .bg-warning .breadcrumb-item a,
+  .breadcrumb .bg-primary .breadcrumb-item a,
+  .breadcrumb .bg-info .breadcrumb-item a,
+  .breadcrumb .bg-success .breadcrumb-item span,
+  .breadcrumb .bg-dark .breadcrumb-item span,
+  .breadcrumb .bg-danger .breadcrumb-item span,
+  .breadcrumb .bg-warning .breadcrumb-item span,
+  .breadcrumb .bg-primary .breadcrumb-item span,
+  .breadcrumb .bg-info .breadcrumb-item span {
+    color: inherit;
+  }
+  
+  /* Inverse breadcrumb for all theme colors */
+  .bg-inverse-success {
+    background-color: #28a745;
+  }
+  
+  .bg-inverse-dark {
+    background-color: #343a40;
+  }
+  
+  .bg-inverse-danger {
+    background-color: #dc3545;
+  }
+  
+  .bg-inverse-warning {
+    background-color: #ffc107;
+  }
+  
+  .bg-inverse-primary {
+    background-color: #007bff;
+  }
+  
+  .bg-inverse-info {
+    background-color: #17a2b8;
+  }
+  

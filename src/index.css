@@ -1,0 +1,43 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
+  div#contentWrapper_RestaurantLayout {
+    padding-top: 10px !important;
+  }
+ 
+  .colored-toast.swal2-icon-success {
+    background-color: #286d00 !important;
+  }
+  
+  .colored-toast.swal2-icon-error {
+    background-color: #e91d1d !important;
+  }
+  
+  .colored-toast.swal2-icon-warning {
+    background-color: #f39543 !important;
+  }
+  
+  .colored-toast.swal2-icon-info {
+    background-color: #3fc3ee !important;
+  }
+  
+  .colored-toast.swal2-icon-question {
+    background-color: #87adbd !important;
+  }
+  
+  .colored-toast .swal2-title {
+    color: white;
+    font-size: 8px;
+  }
+  
+  .colored-toast .swal2-close {
+    color: white;
+  }
+  
+  .colored-toast .swal2-html-container {
+    color: white;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+

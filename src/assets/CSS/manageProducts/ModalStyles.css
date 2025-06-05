@@ -1,0 +1,43 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1040;
+  }
+  
+  .modal.show {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+  
+  .errorsClass2 {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .plus_modal_cont {
+    padding: 1rem;
+  }
+  
+  .cstm_model_plusbtn_1 {
+    margin-right: 1rem;
+  }
+  
+  .cstm_model_plusbtn_2 {
+    margin-left: 1rem;
+  }
+  

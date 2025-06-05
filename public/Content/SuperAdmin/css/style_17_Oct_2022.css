@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;700&display=swap');
+body{
+	background-color: #F6F6F6;
+}
+
+header.main-header {
+    background: #fff;
+    padding: 20px 0px;
+}
+
+
+.login_wrap h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 27px;
+    color: #1C2126;
+    padding-bottom: 17px;
+    font-weight: 700;
+}
+
+.login_wrap {
+    width: 65%;
+    margin: 0px auto;
+    background: #fff;
+    box-shadow: 8px 16px 32px #0000001a;
+    margin-top: 7em;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+form.form_login input.text_wraps-input {
+    background: #F6F6F6;
+    border-radius: 20px;
+    color: #1C2126;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    width: 230px;
+    font-family: 'Noto Sans', sans-serif;
+    border:  0px;
+}
+
+form.form_login input.text_wraps-input::placeholder{
+	color: #1C2126;
+}
+
+form.form_login input.text_wraps-input:focus{
+	box-shadow: none;
+	outline: none;
+}
+
+button.btn.btn-primary.wrap_submit-signin {
+    width: 230px;
+    border-radius: 100px;
+    height: 39px;
+    background: #5651BD;
+    border-color: #5651BD;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+span.wrap-remember {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1C2126;
+    position: relative;
+    left: 10px;
+    top: -6px;
+}
+
+/******************************************checkbox css*************************************************************/
+.sb-checkbox {
+  margin: 0px;
+}
+.sb-checkbox {
+  display: inline-block;
+  font-size: 0;
+}
+.sb-checkbox__input {
+  display: none;
+}
+.sb-checkbox__input:checked + .sb-checkbox__label:after {
+  opacity: 1;
+}
+.sb-checkbox__label {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.sb-checkbox__label:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+.sb-checkbox__label:after {
+    content: 'done';
+    font-family: 'Material Icons';
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+.sb-checkbox__label--green:before {
+  border-color: #5651BD;
+}
+.sb-checkbox__label--green:after {
+  background-color: #5651BD;
+  color: #fff;
+}
+
+.form-check{
+	padding-left: 0px;
+}

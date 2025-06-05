@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Orbit360 Restaurant </title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/admin.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="bootstrap/jquery.slim.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script> 
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <div class="text-center navbar-brand-wrapper align-items-center justify-content-start">
+            <div class="logo_nvbar">
+              <a class="navbar-brand brand-logo" href="index.html">
+                <img src="images/white-logo.png" alt="logo" />
+              </a>
+            </div>
+          </div>
+
+          <ul class="nav">
+          <li class="nav-item nav-category">Mani</li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="14.262" height="15.205" viewBox="0 0 14.262 15.205">
+                <path id="Path_12831" data-name="Path 12831" d="M13.84.07a.469.469,0,0,1,.222.4V14.531a.469.469,0,0,1-.469.469H10.781a.469.469,0,0,1-.469-.469V13.125H9.375v1.406A.469.469,0,0,1,8.906,15H.469A.469.469,0,0,1,0,14.531V9.375A.469.469,0,0,1,.321,8.93l5.3-1.768V4.219A.469.469,0,0,1,5.884,3.8l7.5-3.75a.469.469,0,0,1,.457.02ZM5.625,8.151.937,9.712v4.35H5.625Zm.937,5.912H8.437V12.656a.469.469,0,0,1,.469-.469h1.875a.469.469,0,0,1,.469.469v1.406h1.875V1.227L6.562,4.508Z" transform="translate(0.1 0.105)" fill="#5650bc" stroke="#5650bc" stroke-width="0.2" fill-rule="evenodd"/>
+              </svg>
+
+              <span class="menu-title">View Site</span>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a href="#" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15.2" height="15" viewBox="0 0 15.2 15">
+                <g id="Group_12292" data-name="Group 12292" transform="translate(-35.9 -185)">
+                  <rect id="Rectangle_17775" data-name="Rectangle 17775" width="15" height="15" transform="translate(36 185)" fill="#4e24db" opacity="0"/>
+                  <g id="layout-sidebar-reverse" transform="translate(36 183.75)">
+                    <path id="Path_12704" data-name="Path 12704" d="M13.125,3.188H1.875a.938.938,0,0,0-.937.938V13.5a.937.937,0,0,0,.938.938h11.25a.937.937,0,0,0,.938-.937V4.125A.937.937,0,0,0,13.125,3.188ZM1.875,2.25A1.875,1.875,0,0,0,0,4.125V13.5a1.875,1.875,0,0,0,1.875,1.875h11.25A1.875,1.875,0,0,0,15,13.5V4.125A1.875,1.875,0,0,0,13.125,2.25Z" fill="#fff" stroke="#fff" stroke-width="0.2" fill-rule="evenodd"/>
+                    <path id="Path_12705" data-name="Path 12705" d="M24.75,15.75V4.5h.938V15.75Z" transform="translate(-14.438 -1.313)" fill="#fff" stroke="#fff" stroke-width="0.2" fill-rule="evenodd"/>
+                  </g>
+                </g>
+              </svg>
+
+              <span class="menu-title">License</span>
+            </a>
+          </li>
+
+          <li class="nav-item nav-category">Account</li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                <g id="Group_12293" data-name="Group 12293" transform="translate(-36 -138)">
+                  <rect id="Rectangle_17776" data-name="Rectangle 17776" width="15" height="15" transform="translate(36 138)" fill="#5855be" opacity="0"/>
+                  <g id="person" transform="translate(31.727 133.728)">
+                    <path id="Path_12709" data-name="Path 12709" d="M17.834,19.046a1.187,1.187,0,0,0,1.212-1.212c0-1.212-1.212-4.849-7.273-4.849S4.5,16.622,4.5,17.834a1.187,1.187,0,0,0,1.212,1.212ZM5.718,17.9v0Zm.02-.068H17.807l.017,0,.01,0a3.236,3.236,0,0,0-1.009-2.017c-.79-.79-2.278-1.614-5.052-1.614s-4.262.824-5.052,1.615a3.246,3.246,0,0,0-1.009,2.017Zm12.09.068v0Zm-6.056-7.341A2.424,2.424,0,1,0,9.349,8.136,2.424,2.424,0,0,0,11.773,10.561Zm3.636-2.424A3.636,3.636,0,1,1,11.773,4.5,3.636,3.636,0,0,1,15.409,8.136Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+                  </g>
+                </g>
+              </svg>
+
+              <span class="menu-title">Users</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15.1" height="15.1" viewBox="0 0 15.1 15.1">
+                <g id="Group_12294" data-name="Group 12294" transform="translate(-35.95 -136.949)">
+                  <rect id="Rectangle_17776" data-name="Rectangle 17776" width="15" height="15" transform="translate(36 137)" fill="#4e24db" opacity="0"/>
+                  <g id="gear" transform="translate(35.998 136.999)">
+                    <path id="Path_12713" data-name="Path 12713" d="M8.286,1.525a.818.818,0,0,0-1.569,0l-.088.3A1.756,1.756,0,0,1,4.1,2.869l-.274-.15A.819.819,0,0,0,2.721,3.83L2.87,4.1A1.756,1.756,0,0,1,1.825,6.628l-.3.088a.818.818,0,0,0,0,1.569l.3.088A1.756,1.756,0,0,1,2.87,10.9l-.15.273a.819.819,0,0,0,1.111,1.11l.274-.149a1.756,1.756,0,0,1,2.524,1.046l.088.3a.818.818,0,0,0,1.569,0l.088-.3A1.756,1.756,0,0,1,10.9,12.132l.273.15a.819.819,0,0,0,1.11-1.111l-.149-.273a1.756,1.756,0,0,1,1.046-2.525l.3-.088a.818.818,0,0,0,0-1.569l-.3-.088A1.756,1.756,0,0,1,12.133,4.1l.15-.274a.819.819,0,0,0-1.111-1.11l-.273.149A1.756,1.756,0,0,1,8.374,1.824l-.088-.3ZM5.818,1.259a1.756,1.756,0,0,1,3.368,0l.088.3a.818.818,0,0,0,1.177.488l.274-.15a1.756,1.756,0,0,1,2.381,2.382l-.149.274a.818.818,0,0,0,.488,1.177l.3.088a1.756,1.756,0,0,1,0,3.368l-.3.088a.818.818,0,0,0-.488,1.177l.15.274A1.756,1.756,0,0,1,10.724,13.1l-.274-.149a.818.818,0,0,0-1.177.488l-.088.3a1.756,1.756,0,0,1-3.368,0l-.088-.3a.818.818,0,0,0-1.177-.488l-.274.15A1.756,1.756,0,0,1,1.9,10.723l.149-.274A.818.818,0,0,0,1.56,9.273l-.3-.088a1.756,1.756,0,0,1,0-3.368l.3-.088a.818.818,0,0,0,.488-1.177L1.9,4.278A1.756,1.756,0,0,1,4.279,1.9l.274.149A.818.818,0,0,0,5.73,1.559l.088-.3Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.1" fill-rule="evenodd"/>
+                    <path id="Path_12714" data-name="Path 12714" d="M13.74,11.634a2.106,2.106,0,1,0,2.106,2.106,2.106,2.106,0,0,0-2.106-2.106ZM10.7,13.74a3.043,3.043,0,1,1,3.043,3.043A3.043,3.043,0,0,1,10.7,13.74Z" transform="translate(-6.238 -6.239)" fill="#fff" stroke="#fff" stroke-width="0.1" fill-rule="evenodd"/>
+                  </g>
+                </g>
+              </svg>
+
+
+              <span class="menu-title">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="topbar">
+        <div class="me-3">
+              <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23.996" height="14" viewBox="0 0 23.996 14">
+  <g id="arrow-left" transform="translate(-4.498 -10.123)">
+    <g id="Component_9_1" data-name="Component 9 – 1" transform="translate(4.498 10.123)">
+      <path id="Path_12691" data-name="Path 12691" d="M12.206,10.417a1,1,0,0,1,0,1.416l-5.292,5.29,5.293,5.291a1,1,0,1,1-1.416,1.416l-6-6a1,1,0,0,1,0-1.416l6-6a1,1,0,0,1,1.416,0Z" transform="translate(-4.498 -10.123)" fill="#5751bd" fill-rule="evenodd"/>
+      <path id="Path_12692" data-name="Path 12692" d="M5.625,17.875a1,1,0,0,1,1-1h21a1,1,0,0,1,0,2h-21A1,1,0,0,1,5.625,17.875Z" transform="translate(-4.623 -10.875)" fill="#5751bd" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
+
+              </button>
+            </div>
+        <div class="dropdown-wraps_user">
+                  <ul>
+                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+                      <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> 
+                        <p class="wrap_user-name">Alisha Nayak<br/><span class="admin_wrap">Admin</span></p> </a>
+                      <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                        
+                        <a class="dropdown-item drop_down_profiles"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                        <g id="Group_12331" data-name="Group 12331" transform="translate(-0.008)">
+                          <rect id="Rectangle_17776" data-name="Rectangle 17776" width="15" height="15" transform="translate(0.008)" fill="#1c2126" opacity="0"/>
+                          <g id="person" transform="translate(0.227 0.228)">
+                            <path id="Path_12709" data-name="Path 12709" d="M17.834,19.046a1.187,1.187,0,0,0,1.212-1.212c0-1.212-1.212-4.849-7.273-4.849S4.5,16.622,4.5,17.834a1.187,1.187,0,0,0,1.212,1.212ZM5.718,17.9v0Zm.02-.068H17.807l.017,0,.01,0a3.236,3.236,0,0,0-1.009-2.017c-.79-.79-2.278-1.614-5.052-1.614s-4.262.824-5.052,1.615a3.246,3.246,0,0,0-1.009,2.017Zm12.09.068v0Zm-6.056-7.341A2.424,2.424,0,1,0,9.349,8.136,2.424,2.424,0,0,0,11.773,10.561Zm3.636-2.424A3.636,3.636,0,1,1,11.773,4.5,3.636,3.636,0,0,1,15.409,8.136Z" transform="translate(-4.5 -4.5)" fill="#1c2126" fill-rule="evenodd"/>
+                          </g>
+                        </g>
+                      </svg> Profile </a>
+                        
+                        <a class="dropdown-item drop_down_signout"><svg id="box-arrow-in-left" xmlns="http://www.w3.org/2000/svg" width="16.154" height="15" viewBox="0 0 16.154 15">
+                        <path id="Path_12718" data-name="Path 12718" d="M13.446,18.032a.577.577,0,0,0,0-.817l-3.054-3.053,3.054-3.053a.578.578,0,0,0-.817-.817L9.168,13.754a.577.577,0,0,0,0,.817l3.462,3.462a.577.577,0,0,0,.817,0Z" transform="translate(-5.538 -6.663)" fill="#ff5c5a" fill-rule="evenodd"/>
+                        <path id="Path_12719" data-name="Path 12719" d="M22.788,17.452a.577.577,0,0,0-.577-.577H11.827a.577.577,0,0,0,0,1.154H22.212A.577.577,0,0,0,22.788,17.452Z" transform="translate(-6.635 -9.952)" fill="#ff5c5a" fill-rule="evenodd"/>
+                        <path id="Path_12720" data-name="Path 12720" d="M3.981,18.375A1.731,1.731,0,0,1,2.25,16.644V5.106A1.731,1.731,0,0,1,3.981,3.375h9.231a1.731,1.731,0,0,1,1.731,1.731V6.837a.577.577,0,1,1-1.154,0V5.106a.577.577,0,0,0-.577-.577H3.981a.577.577,0,0,0-.577.577V16.644a.577.577,0,0,0,.577.577h9.231a.577.577,0,0,0,.577-.577V14.913a.577.577,0,1,1,1.154,0v1.731a1.731,1.731,0,0,1-1.731,1.731Z" transform="translate(-2.25 -3.375)" fill="#ff5c5a" fill-rule="evenodd"/>
+                      </svg> Sign Out</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-sm-12 table_wrap-form">
+              <div class="filter_wraps">
+                <form class="license_wrap">
+                    <input type="text" class="form-control" placeholder="NZAK0007" id="first_text"> <span class="line-right">|</span>
+                    <input type="text" class="form-control" placeholder="Site Legal Name" id="site_legal_name"> <span class="line-right">|</span>
+                    <input type="text" class="form-control" placeholder="Site Trading Name" id="site_trading_name"> 
+
+                  <div class="search_input-text form-group">
+                    <button class="btn btn-primary search_button">
+                      <svg id="__TEMP__SVG__" xmlns="http://www.w3.org/2000/svg" width="16.001" height="16" viewBox="0 0 16.001 16">
+                      <path id="Path_12695" data-name="Path 12695" d="M23.13,23.128a1,1,0,0,1,1.415,0l3.85,3.85a1,1,0,0,1-1.414,1.415l-3.85-3.85a1,1,0,0,1,0-1.415Z" transform="translate(-12.688 -12.686)" fill="#fff" fill-rule="evenodd"/>
+                      <path id="Path_12696" data-name="Path 12696" d="M6.5,12A5.5,5.5,0,1,0,1,6.5,5.5,5.5,0,0,0,6.5,12ZM13,6.5A6.5,6.5,0,1,1,6.5,0,6.5,6.5,0,0,1,13,6.5Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+                    </svg>
+                    Search</button>
+                  </div>
+                  <p class="wrap_plus-add"><a href="#"> <span class="wrapadd_plus"><svg xmlns="http://www.w3.org/2000/svg" width="13.188" height="13.188" viewBox="0 0 13.188 13.188">
+  <g id="plus" transform="translate(-8.525 -8.525)">
+    <path id="Path_12716" data-name="Path 12716" d="M14.469,7.875a.733.733,0,0,1,.733.733v5.861a.733.733,0,0,1-.733.733H8.608a.733.733,0,0,1,0-1.465h5.128V8.608A.733.733,0,0,1,14.469,7.875Z" transform="translate(0.65 0.65)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Path_12717" data-name="Path 12717" d="M16.875,17.608a.733.733,0,0,1,.733-.733h5.861a.733.733,0,0,1,0,1.465H18.34v5.129a.733.733,0,1,1-1.465,0Z" transform="translate(-2.488 -2.489)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg> Add </span></a></p>
+                </form>
+              </div>
+
+              <form action="#" class="new_customer-wrap">
+                <!-------------top 4 grid--------------------->
+                  <div class="row">
+                  <div class="form-group col-sm">
+                    <label for="email">Country</label>
+                    <div class="select_box">
+                      <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+                    
+                  </div>
+                  
+                  <div class="form-group col-sm">
+                    <label for="email">State</label>
+                     <div class="select_box">
+                      <select class="form-control" aria-label="Default select example">
+                      <option selected>Username or email</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+
+                  <div class="form-group col-sm">
+                      <label for="email">City</label>
+                      <div class="select_box">
+                        <select class="form-control" aria-label="Default select example">
+                        <option selected>Select City</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        </select>
+                      </div>
+                  </div>
+                  
+
+                  <div class="form-group col-sm">
+                    <label for="pwd">Post Code</label>
+                    <input type="text" class="form-control" id="pwd" placeholder="e.g. 88310" name="pswd">
+                  </div>
+                  </div>
+                 <!-------------second 2 grid---------------------> 
+                  <div class="row"> 
+                    <div class="form-group col-sm-6">
+                      <label for="address">Address</label>
+                      <input type="text" class="form-control" id="address" placeholder="Enter Address 1" name="address">
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                      <label for="alternate_address">Alternate Address</label>
+                      <input type="text" class="form-control" id="alternate_address" placeholder="Alternate Address" name="alternate_address">
+                    </div>
+                  </div>
+
+               <!-------------third 3 grid--------------------->  
+                  <div class="row">
+                    <div class="form-group col-sm-4">
+                      <label for="email">Business Id Type</label>
+                       <div class="select_box">
+                          <select class="form-control" aria-label="Default select example">
+                          <option selected>Business Id Type</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group col-sm-4">
+                      <label for="businessid">Business Id</label>
+                      <input type="text" class="form-control" id="businessid" placeholder="Business Id" name="businessid">
+                    </div>
+                    
+                    
+                    <div class="form-group col-sm-4">
+                      <label for="email">Industry</label>
+                       <div class="select_box">
+                          <select class="form-control" aria-label="Default select example">
+                          <option selected>Select Industry</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          </select>
+                        </div>
+                    </div>
+                  </div>
+              <!-------------fourth 2 grid--------------------->  
+                  <div class="row">
+                    <div class="form-group col-sm-6">
+                      <label for="customername">Customer Name</label>
+                      <input type="text" class="form-control" id="customername" placeholder="Enter Address" name="customername">
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                      <label for="contact">Contact phone</label>
+                      <input type="text" class="form-control" id="contactnumber" placeholder="Enter Address" name="contactphone">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="form-group col-sm-6">
+                      <label for="legalname">Legal Name</label>
+                      <input type="text" class="form-control" id="legal_name" placeholder="Legal Name" name="legal_name">
+                    </div>
+
+                    <div class="form-group col-sm-6">
+                      <label for="trading">Trading Name</label>
+                      <input type="text" class="form-control" id="trading_name" placeholder="Trading Name" name="trading_name">
+                    </div>
+                  </div>
+              <!-------------fifth 3 grid---------------------> 
+                  <div class="row">
+                  
+                    <div class="form-group col-sm-4">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Username or email" name="email">
+                    </div>
+                    <div class="form-group col-sm-4">
+                      <label for="pwd">Password</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Username or email" name="pswd">
+                    </div>
+                    <div class="form-group col-sm-4">
+                      <label for="pwd">Confirm Password</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Username or email" name="pswd">
+                    </div>
+
+                  </div>
+              <!-------------sixth checkbox grid--------------------->
+                <div class="customer_wrap-checkbox">  
+                  <div class="row">
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check1" name="check1">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check1"></label> Online Order
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                          <input type="text" class="form-control" id="online_order" name="online_order" value="1">
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check2" name="check2">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check2"></label> POS
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="pos" name="pos" value="0">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check3" name="check3">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check3"></label> KIOSK
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="koisk" name="koisk" value="0">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check4" name="check4">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check4"></label> MPOS
+                          </label>
+                          </div>
+                          <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="mpos" name="mpos" value="0">
+                          </div>
+                        
+                      </div>
+                      </div>
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check5" name="check5">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check5"></label> KDS
+                          </label>
+                          </div>
+                        <div class="input_wrapper-text">
+                              <input type="text" class="form-control" id="kds" name="kds" value="2">
+                      </div>
+                    </div>
+                    </div>
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check6" name="check6">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check6"></label> E-NOTIFY
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="e-notify" name="e-notify" value="2">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check7" name="check7">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check7"></label> E-SIGNAGE
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="e_signage" name="e_signage" value="2">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-check col-sm-4">
+                      <div class="checbox_input-wrap">
+                        <div class="checbox_wrapper">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="sb-checkbox__input" id="check8" name="check8">
+                          <label class="sb-checkbox__label sb-checkbox__label--green" for="check8"></label> GED FANCE
+                          </label>
+                        </div>
+                        <div class="input_wrapper-text">
+                            <input type="text" class="form-control" id="ged_fance" name="ged_fance" value="2">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                </form>
+
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <!-- <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
+          </div>
+        </footer> -->
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+
+  <div class="modal" id="custom_date-modal" role="dialog">
+    <div class="modal-dialog cstm_modal_dialog">
+      <div class="modal-content plus_modal_cont custm_date-wrappopup">
+        <!-- Modal body -->
+        <div class="modal-body new_modal_work">
+          <div class="col-md-12 col-lg-12 col-12">
+            <form>
+              <div class="dates_wraps">
+                  <div class="form-group text_wrap-datepicker">
+                    <label>Start Date</label>
+                    <input type="text" class="form-control" id="datepicker">
+                </div>
+                  <div class="form-group text_wrap-datepicker">
+                    <label>End Date</label>
+                    <input type="text" class="form-control" id="datepicker_to">
+                  </div>
+
+                  <div class="form-group text_wrap-datepicker">
+                    <label>To</label>
+                    <input type="text" class="form-control" id="quantity" name="quantity" placeholder="e.g.5">
+                  </div>
+
+              </div>
+
+                  
+                <div class="apply_form">
+                  <button type="submit" class="btn btn-primary save_wraps-dats">Add</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <script>
+            $( function() {
+              $( "#datepicker" ).datepicker();
+            } );
+          </script>
+
+          <script>
+            $( function() {
+              $( "#datepicker_to" ).datepicker();
+            } );
+          </script>
+        </div>        
+        <!-- Modal footer -->               
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $('.sb-checkbox__input').click(function(){
+     $('#custom_date-modal').modal('toggle');//.modal('show')/.modal('hide');
+    });
+
+    $('.sb-checkbox__input').click(function(){
+          if($(this).is(':checked')) {
+             $('#custom_date-modal').modal('show');
+           } else {
+             $('#custom_date-modal').modal('hide');
+           }
+        });
+  </script> 
+
+  <style type="text/css">
+    
+  </style>
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="vendors/progressbar.js/progressbar.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+

@@ -1,0 +1,122 @@
+.fadeList {
+    opacity: 0.3;
+}
+
+.classheading_PageTitle_RestaurantLayoutSetStyle {
+    max-width: 74% !important;
+}
+
+
+
+.Manage-prod-bx .table th, .Manage-prod-bx .table td .td-icon path {
+    fill: #1A8101;
+}
+
+.Manage-prod-bx .table th, .Manage-prod-bx .table td .td-icon {
+    cursor: pointer;
+}
+
+.Manage-prod-bx .table th, .Manage-prod-bx .table .selectedRow .td-icon path {
+    fill: #fff;
+}
+
+.Manage-prod-bx .table th, .Manage-prod-bx .table .selectedRow .img-svg path {
+    fill: #fff;
+}
+
+#tblProductList_ManageProduct tr:nth-child(even) {
+    background-color: #cccccc21;
+}
+/*.Manage-prod-bx .table th, .Manage-prod-bx .table td .td-icon path {
+    fill: #5650BD;
+}*/
+
+.price-pop, .price-sel, .updateProductName {
+    position: relative;
+}
+
+.toltip1, .toltip2 {
+    position: absolute;
+    width: 200px;
+    display: flex;
+    border: 1px solid #a79f9f;
+    align-items: baseline;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 0px 6px;
+    box-shadow: 5px 4px 10px 4px #989394bd;
+    z-index: 2;
+}
+
+    .toltip1 i {
+        color: #d91111;
+        font-size: 18px;
+        /* margin-right: 9px; */
+        padding: 7px;
+        border-right: 1px solid #ded9d9;
+    }
+
+    .toltip1 input {
+        padding: 0px;
+        height: 30px;
+        margin: 6px 5px;
+        border: none;
+        border-bottom: 1px solid #3dbc1f;
+        border-radius: 0px;
+    }
+
+    .toltip2 select {
+        padding: 5px;
+        height: 30px;
+        margin: 4px 0px;
+        color: #000;
+        -webkit-appearance: auto;
+        border: 1px solid #959595;
+    }
+
+.tdProductSellingPrice {
+    background-color: #185abc !important;
+    color: #fff !important;
+}
+
+.toltip2 span {
+    padding: 10px;
+    color: red;
+    border-right: 1px solid gray;
+}
+
+.toltip2 div {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.toltip2 {
+    width: 300px;
+    padding: 10px;
+    align-items: center;
+    font-weight: 550;
+    color: #000000;
+}
+
+@font-face {
+    font-weight: 400;
+    font-style:  normal;
+    font-family: circular;
+  
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-style:  normal;
+    font-family: circular;
+  
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+  }
+
+  .content-wrapper {
+    padding: 1.5rem 2.187rem 1.5rem 2rem;
+    background: #EFF3F9;
+}
+
+

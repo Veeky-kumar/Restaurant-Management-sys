@@ -1,0 +1,60 @@
+﻿.errorsClass {
+    color: red;
+}
+.errorsClass2 {
+    color: red;
+    font-size:14px;
+    font-weight: 400;
+}
+.requiredFieldClass {
+    color: red;
+}
+.errLoginSection{
+    text-align:center;
+    padding-top: 25px;
+}
+.table-jquery tr td {
+    line-height: 2em;
+}
+
+.dataTables_length {
+    display: none;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.dataTables_wrapper .dataTable thead .sorting:before {
+    display: none;
+}
+
+.dataTables_wrapper .dataTable thead .sorting:after {
+    display: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 1px solid #554EBC;
+    background: linear-gradient(to bottom, #554EBC 0%, #554EBC 100%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    background: linear-gradient(to bottom, #554EBC 0%, #554EBC 100%);
+    box-shadow: inset 0 0 3px #554ebc;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff !important;
+    background: #554EBC;
+}
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+        color: #fff !important;
+        background: #554EBC;
+    }
+
+.showAllRecords {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.showAllRecords a {
+    color: red;
+}

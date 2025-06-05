@@ -1,0 +1,529 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h3.modifires-wrap {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+section.inner-banner {
+    background: transparent linear-gradient(105deg, #554EBC 0%, #5956BF 62%, #8AA0DE 100%) 0% 0% no-repeat padding-box;
+    padding: 20px 0px 40px;
+}
+
+.header_cart {
+    float: right;
+}
+
+.food_img{
+    background: #EFF3F9;
+    width: 90px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.food_text h5 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #4A4B4D;
+    margin-bottom: 5px;
+}
+
+span.food_price {
+    float: right;
+    color: #5650BD;
+}
+
+p.description {
+    font-size: 10px;
+    color: #7A7A7A;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+p.wrap_types {
+    color: #4A4B4D;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -8px;
+}
+
+.quanity_wrap-wtc input {
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 12px;
+}
+
+.quanity_wrap-wtc .button-minus{
+    background: #EFF3F9;
+    border: 0px !important;
+    color: #5650BD;
+}
+
+.quanity_wrap-wtc .button-plus{
+    background: #5650BD;
+    border:  0px !important;
+    color: #fff;
+}
+
+.quanity_wrap-wtc .quantity_text{
+    color: #4A4B4D;
+    font-weight: 600;
+
+}
+
+section.wrap_modifires {
+    position: relative;
+    top: -30px;
+    background: #fff;
+    border-top-left-radius: 30px;
+    padding-top: 30px;
+    border-top-right-radius: 30px;
+}
+
+hr.line_wraps{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #C2C2C2;
+    width: 33%;
+}
+
+.wrap_cart {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.items_wraps {
+    display: flex;
+}
+
+.cart_items {
+    margin-top: 15px;
+}
+
+.cart_item_name h5 {
+    font-size: 14px;
+    color: #4A4B4D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.cart_item_name p span {
+    color: #C2C2C2;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.cart_item_name {
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.cart_item_price p {
+    font-size: 14px;
+    color: #5650BD;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+}
+
+.cart_item_name {
+    width: 41%;
+}
+
+.cart_quantity {
+    padding-left: 1.5%;
+    padding-top: 2px;
+}
+
+.item_img {
+    width: 16%;
+}
+
+.cart_quantity{
+    width: 23%;
+}
+
+.items_wraps {
+    border-bottom: 1px solid #2A2A2A1F;
+}
+
+p.sub_total-wraps {
+    font-size: 14px;
+    color: #313131;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span.subtotal_price {
+    float: right;
+    color: #4A4B4D;
+    font-weight: 600 !important;
+}
+
+p.sub_total-wraps {
+    margin-bottom: 4px;
+}
+
+p.total-wraps {
+    font-size: 16px;
+    font-weight: 600;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+span.total_price {
+    float: right;
+    color: #5650BD;
+    font-weight: 700 !important;
+    font-size: 22px;
+}
+
+p.sub_total-wraps.gst_price {
+    border-bottom: 1px solid #C2C2C2;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+}
+
+.wrap_more-items {
+    background: #EFF3F9;
+    padding: 15px 20px;
+    border-radius: 23px;
+}
+
+.wrap_more-items p{
+    color: #5650BD;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+span.arrow_right {
+    float: right;
+}
+p.wrap_need-help {
+    color: #5650BD;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    padding-top: 10px;
+}
+
+.continue_wrap-button{
+    background: transparent linear-gradient(112deg, #554EBC 0%, #5956BF 62%, #8AA0DE 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 50px;
+    border:  0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin-top: 10px;
+        padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.wrap_totals {
+    padding-top: 17px;
+}
+
+svg.users_svg path {
+    fill: #5650BD;
+}
+
+svg.users_svg line {
+    fill: #5650BD;
+}
+
+hr.line_wraps.blue_line {
+    border-color: #5650BD;
+}
+
+form.checkout_form-details input {
+    background: #EFF3F9;
+    border: 1px solid #EFF3F9;
+    border-radius: 50px;
+    height: 46px;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #1C2126;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form.checkout_form-details input:focus {
+        box-shadow: none;
+    border: 1px solid #5650BD;
+}   
+
+
+form.checkout_form-details input::placeholder{
+    color: #9D9D9D;
+    font-weight: 500;
+}
+
+p.table_wraps span {
+    background: #5650BD;
+    color: #fff;
+    border-radius: 63px;
+    padding: 8px 23px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+p.table_wraps {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.card_expiry-wrap {
+    padding-right: 5px;
+}
+
+.cvv_number-wrap{
+    padding-left: 5px;
+}
+
+.success_image{
+    text-align: center;
+}
+
+.wrap_orderplaced {
+    background: #EFF3F9;
+    border-radius: 10px;
+    padding: 35px 18px 22px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.wrap_orderplaced h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #5650BD;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap_orderplaced p {
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.choice_wraps h3 {
+    font-size: 14px;
+    color: #4A4B4D;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+.choice_wraps p {
+    font-size: 9px;
+    color: #7A7A7A;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+hr.line_red-wraps{
+    margin-top: 0.6rem;
+    border-top: 1px solid #F6E4DC;
+}
+
+.choice_wraps {
+    margin-top: 20px !important;
+}
+
+.button_choics{
+    width: 100%;
+    overflow-x: hidden;
+}
+.button_choices {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+button.btn.btn-outline-secondary.choics_wraps-button {
+       background: #5650BD;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    width: 110px;
+    height: 60px;
+    padding: 0px;
+}
+
+.button_choices button {
+    margin: 0px 6px;
+}
+
+button.btn.btn-outline-secondary.choics_wraps-button.background_color-raps {
+    background: #EFF3F9;
+    color: #5650BD;
+    border-color: #EFF3F9;
+}
+
+.button_choices button:first-child {
+    margin-left: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*******************************************************Ribbon css***************************************************/
+.wrap_choics-div {
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 16px solid #fff;
+    border-bottom: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+.triangle {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.triangle span.value_text {
+    position: relative;
+    color: #5650BD;
+    font-size: 6px;
+    top: -26px;
+    left: 2px;
+    font-weight: 700;
+}
+
+/*******************************************************Ribbon css end***************************************************/
+    
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+h3.modifires-wrap {
+    font-size: 23px !important;
+}
+.food_text h5 {
+    font-size: 17px;
+}
+p.description {
+    font-size: 13px;
+}
+p.wrap_types {
+    font-size: 15px;
+}
+.quanity_wrap-wtc input {
+    font-size: 16px;
+}
+.choice_wraps h3 {
+    font-size: 17px;
+}
+.choice_wraps p {
+    font-size: 14px;
+}
+.triangle span.value_text {
+    font-size: 8px;
+}
+button.btn.btn-outline-secondary.choics_wraps-button {
+    font-size: 13px;
+}
+.cart_item_name h5 {
+    font-size: 16px;
+}
+.cart_item_name p span {
+    font-size: 14px;
+}
+.cart_item_price p {
+    font-size: 16px;
+}
+p.sub_total-wraps {
+    font-size: 16px;
+}
+form.checkout_form-details input {
+    font-size: 16px;
+}
+p.table_wraps span {
+    font-size: 15px;
+}
+.continue_wrap-button {
+    font-size: 18px;
+}
+.wrap_orderplaced h4 {
+    font-size: 23px;
+}
+.wrap_orderplaced p {
+    font-size: 16px;
+}
+.wrap_orderplaced {
+    padding: 35px 18px 35px;
+}
+
+
+
+}
+
+
+.input-group.searh_inputs {
+    width: 55%;
+    position: absolute;
+    z-index: 9;
+    right: 16px;
+    top: 51px;
+}
+
+.wrap_cart svg {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (min-width: 900px) {
+section.wrap_modifires {
+    width: 75%;
+    margin: 0px auto;
+}
+}
+
+.fixedaddto_card {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quanity_wrap-wtc.cart_itms_counts input {
+    height: 18px;
+    width: 18px;
+    line-height: 0px;
+    font-size: 12px;
+    padding: 0px !important;
+}
+
+input#txtProductQuantity {
+    width: 30px;
+}

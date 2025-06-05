@@ -1,0 +1,622 @@
+.promotionTable tr.expired td {
+    background-color: #fc0000 !important;
+    color: #fff !important;
+}
+
+.promotionTable tr.expired td i {
+    color: #fff !important;
+}
+
+/*.TenderTypeSectionCommonClass .btn_tenderPaymentData {
+    max-width: fit-content;
+}*/
+#addUpdatePaymentTenderType #tenderTypeSurcharges {
+    height: 36px !important;
+}
+
+#addUpdatePaymentTenderType .tenderTypeSurchargeValueTypeId {
+    width: 1.2em !important;
+    margin-right: .3125rem !important;
+}
+
+.ui-state-highlight {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.3);
+    border: 25px solid rgba(255, 255, 0, 0.3);
+}
+
+.TenderTypeSectionCommonClass,
+.TenderTypeSectionCommonClass label {
+    cursor: move;
+}
+
+/*.set-check-box.tenderPaymentTypeSection .form-check {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}*/
+/*.tenderPaymentTypeSection .form-check:last-child {
+    margin-bottom:0;
+}*/
+body.modal-open .container-scroller {
+    filter: unset;
+}
+
+.software-bx .toggle-btn .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px !important;
+    width: 20px !important;
+    left: 2px !important;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.content-wrapper {
+    /*  padding: 0px !important;*/
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .input-group-append {
+        position: absolute;
+        top: 7px;
+        right: 17px;
+        width: 30px;
+        background-color: #fff;
+        height: 30px;
+        text-align: center;
+    }
+
+    .input_searchh {
+        width: 100%;
+    }
+}
+
+.software-bx .set-nav .nav-pills>li.active>a,
+.software-bx .nav-pills>li.active>a:hover,
+.software-bx .nav-pills>li.active>a:focus {
+    color: #fff;
+    padding: 7px 19px;
+    border-radius: 0px;
+    background-color: #5650BD;
+    font-size: 16px;
+}
+
+.software-bx .set-nav .set-pills>li {
+    font-size: 13px !important;
+    position: relative;
+    background-color: #eff4fa;
+    display: block;
+    text-align: center;
+}
+
+.tab-set .tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    cursor: pointer;
+    margin-left: 3px;
+    min-width: 21px;
+}
+
+.tab-set .tooltip .tooltiptext {
+    visibility: visible;
+    width: 450px;
+    background-color: #4235b4 !important;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 15px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 22px;
+}
+
+.tab-set .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+    .search-bx-right form {
+        width: 100%;
+    }
+
+    .auto-log .col-md-8 {
+        padding: 0px;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .software-bx #exTab1 .tab-content {
+        padding: 0px;
+    }
+
+    .software-bx .tab-set {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .software-bx .tab-set .form-set {
+        width: 100%;
+    }
+
+    .software-bx .tab-set .form-set .form-check-label {
+        margin-left: 0px;
+        margin-right: 20px;
+        text-align: left;
+    }
+
+    .tab-set .tooltip .tooltiptext {
+        width: 117px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .software-bx .tab-set .form-set {
+        width: 100%;
+    }
+
+    .search-bx {
+        margin-top: 10px;
+    }
+
+    .tab-set .tooltip .tooltiptext {
+        width: 321px;
+    }
+}
+
+.tooltip-inner {
+    background-color: #4235b4 !important;
+}
+
+.tootipCustomClass {
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 19px;
+    border-color: none;
+}
+
+i.fa.fa-question-circle {
+    color: #66bd50 !important;
+}
+
+button.btn.pro-submit {
+    color: #fff;
+}
+
+body.modal-open .container-scroller {
+    filter: none;
+}
+
+input[type=checkbox] {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+td {
+    padding: 10px 10px 10px 14px !important;
+}
+
+.table-responsive i.fa.fa-edit,
+.table-responsive i.fa.fa-trash {
+    font-size: 24px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+table.table tr th {
+    padding: 10px;
+}
+
+.taxtEmpty .fa-university {
+    color: #4235b4 !important;
+    font-size: 51px;
+    padding: 20px;
+    background: #c3c6c83b;
+    border-radius: 50%;
+}
+
+.tbltaxesListClass th {
+    text-align: center;
+}
+
+.tbltaxesListClass td {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* width */
+.add-pay-modal .modal-dialog .modal-content .modal-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+/*Track */
+.add-pay-modal .modal-dialog .modal-content .modal-body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808054;
+    border-radius: 10px;
+}
+
+/*Handle*/
+.add-pay-modal .modal-dialog .modal-content .modal-body::-webkit-scrollbar-thumb {
+    background: #5650bd99;
+    border-radius: 5px;
+}
+
+.advance-btn-modal#paymentTenderTypeModal .modal-body label.form-check-label {
+    margin-left: 8%;
+}
+
+.advance-btn-modal#paymentTenderTypeModal .modal-footer {
+    border-top: 1px solid #bbb !important;
+}
+
+.advance-btn-modal#paymentTenderTypeModal .modal-dialog .modal-content .modal-body {
+    padding: 8px 15px;
+}
+
+button.btn.add-pay {
+    font-size: 15px;
+}
+
+button.btn.edit-pay {
+    border: 1px solid #b7b7b7;
+    padding: 4px 8px;
+}
+
+.advance-btn-modal#paymentTenderTypeModal .modal-header {
+    border-bottom: 1px solid #bbb !important;
+}
+
+.add-pay-modal .modal-dialog .modal-content .modal-body {
+    height: fit-content;
+}
+
+/*.tenderPaymentTypeSection .form-check-label, .tenderPaymentTypeSection .tenderPaymentTypes {
+    cursor: pointer;
+}*/
+
+.PromotionPriorityDataSectionCommonClass {
+    cursor: move;
+}
+
+#promotionPriorityTable tr td {
+    padding: 10px 10px !important;
+}
+
+.promotionPriorityTableModal {}
+
+.promotionSection .form-check-label a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.promotionSection .form-check {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.bootstrap-datetimepicker-widget table td.disabled {
+    color: #cecece !important;
+}
+
+.bootstrap-datetimepicker-widget table td span.disabled {
+    color: #cecece !important;
+}
+
+.bootstrap-datetimepicker-widget table td {
+    color: #000 !important;
+    font-weight: 600 !important;
+    width: 100%;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute {
+    margin-left: 60px !important;
+}
+
+.bootstrap-datetimepicker-widget table td span {
+    display: flex !important;
+    width: 54px !important;
+    height: 54px !important;
+    line-height: 54px !important;
+    margin: 2px 1.5px !important;
+    cursor: pointer !important;
+    border-radius: 0.25rem !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    float: left !important;
+}
+
+.bootstrap-datetimepicker-widget table td {
+    height: 0px !important;
+    line-height: 12px !important;
+    width: 0px !important;
+}
+
+.bootstrap-datetimepicker-widget .list-unstyled {
+    background: #fff !important;
+    width: 135% !important;
+}
+
+.bootstrap-datetimepicker-widget .list-unstyled .datepicker {
+    width: 330px !important;
+    display: block !important;
+    margin-bottom: -5px;
+}
+
+.bootstrap-datetimepicker-widget .list-unstyled .datepicker .datepicker-months table td {
+    padding: unset !important;
+}
+
+.bootstrap-datetimepicker-widget {
+    height: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.text_wrap-datepicker input {
+    width: 160px !important;
+}
+
+.sweet-alert {
+    z-index: 99999999;
+}
+
+.errorsClass2 {
+    font-size: 14px;
+}
+
+.promotionTable .thead-dark th {
+    text-align: center;
+    background: #4235b4 !important;
+}
+
+.btn_AddPromoCode span,
+.btn_AddThreshold span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button.btn_AddPromoCode,
+button.btn_AddPromoCode:hover,
+button.btn_AddThreshold,
+button.btn_AddThreshold:hover {
+    background-color: #4235b4 !important;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 11px;
+}
+
+.btn_AddPromoCode,
+.btn_AddThreshold {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#promoCodeTableModalLongTitle,
+#promoCodeModalLongTitle,
+#thresholdTableModalLongTitle,
+#thresholdModalLongTitle,
+#promotionPriorityTableModalLongTitle {
+    color: #4235b4;
+    font-weight: bold;
+}
+
+.promotionTable {
+    border: 1px solid #dee2e6;
+}
+
+.promotionTable tbody tr:nth-child(even) td {
+    background-color: #ededed;
+}
+
+.promotionTable td {
+    /*text-transform: uppercase;*/
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.promotionTable td,
+.promotionTable th {
+    border: none;
+}
+
+.promotionTable td {
+    padding: 5px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.promotionTable td button:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.promotionTable td button {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.promotionTable td button i {
+    font-size: 24px;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form,
+.add-promo-code-form form,
+#addThresholdModal .modal-body .add-threshold-form,
+.add-threshold-form form {
+    border: 1px solid #bfbfbf;
+    padding: 8px;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form .input-container,
+#addThresholdModal .modal-body .add-threshold-form form .input-container {
+    /*margin-bottom: 8px;*/
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form .input-container:last-child,
+#addThresholdModal .modal-body .add-threshold-form form .input-container:last-child {
+    margin-bottom: 0;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form .input-container label,
+#addThresholdModal .modal-body .add-threshold-form form .input-container label {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form .input-container input,
+#addThresholdModal .modal-body .add-threshold-form form .input-container input {
+    border: 1px solid #d5d5d5;
+    outline: none;
+    box-shadow: none;
+    padding: 2px 8px;
+    width: 100%;
+}
+
+#addPromoCodeModal .modal-body .row,
+#addThresholdModal .modal-body .row {
+    padding: 0;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form .time-check .input-container,
+#addThresholdModal .modal-body .add-threshold-form .time-check .input-container {
+    position: relative;
+}
+
+#addPromoCodeModal .form-check-input:checked,
+#addThresholdModal .form-check-input:checked {
+    background-color: #5650bd;
+    border-color: #5650bd;
+}
+
+#addPromoCodeModal .form-check-input,
+#addThresholdModal .form-check-input {
+    border-color: #5650bd;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form ul,
+#addThresholdModal .modal-body .add-threshold-form form ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 50px;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form ul li,
+#addThresholdModal .modal-body .add-threshold-form form ul li {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+#addPromoCodeModal ul.days-check li,
+#addThresholdModal ul.days-check li {
+    min-width: 60px;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form ul li div,
+#addThresholdModal .modal-body .add-threshold-form form ul li div {
+    display: flex;
+    align-items: center;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form ul li div label,
+#addThresholdModal .modal-body .add-threshold-form form ul li div label {
+    font-size: 14px !important;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form ul li div input[type=checkbox],
+#addThresholdModal .modal-body .add-threshold-form form ul li div input[type=checkbox] {
+    accent-color: #5650bd;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form .toggle-form .input-container,
+#addThresholdModal .modal-body .add-threshold-form .toggle-form .input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form form .input-container input[type="date"]::-webkit-calendar-picker-indicator,
+#addThresholdModal .modal-body .add-threshold-form form .input-container input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../../Content/Restaurant/images/calender-icon.svg) no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    border-width: thin;
+}
+
+.promotionDate {
+    cursor: pointer;
+    padding-right: 30px;
+    background-image: url(../../Content/Restaurant/images/calender-icon.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 7px) center;
+    background-size: 20px 20px;
+}
+
+input[type=time]::-webkit-datetime-edit-hour-field:focus,
+input[type=time]::-webkit-datetime-edit-minute-field:focus,
+input[type=time]::-webkit-datetime-edit-second-field:focus,
+input[type=time]::-webkit-datetime-edit-ampm-field:focus {
+    background-color: #5650bd;
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form .timing-form .input-container input[type="time"]::-webkit-calendar-picker-indicator,
+#addThresholdModal .modal-body .add-threshold-form .timing-form .input-container input[type="time"]::-webkit-calendar-picker-indicator {
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+#addPromoCodeModal .modal-body .add-promo-code-form .timing-form .input-container input[type="time"],
+#addThresholdModal .modal-body .add-threshold-form .timing-form .input-container input[type="time"] {
+    padding-right: 30px;
+    background-image: url(../../Content/Restaurant/images/clock-icon.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 7px) center;
+    background-size: 20px 20px;
+}
+
+.add-promo-code-form .form-check-inline .promoCodeTimingTypeId,
+.add-promo-code-form .form-check-inline label,
+.add-threshold-form .form-check-inline .thresholdTimingTypeId,
+.add-threshold-form .form-check-inline label {
+    cursor: pointer
+}

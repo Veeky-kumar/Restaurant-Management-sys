@@ -1,0 +1,160 @@
+        /*.wrap_dropsdowns {
+            position: relative !important;
+            float: right;
+            right: -40px;
+            top: -5px;
+        }*/
+
+        .highcharts-legend circle {
+            fill: transparent !important;
+        }
+
+        #graph_income_dashboard svg.highcharts-root {
+            max-width: 100%!important;
+        }
+        .wrap_dropsdowns {
+            float: right;
+            /*right: -35px;*/
+            right: 0px;
+            top: -2px;
+        }
+
+        .wrap_dropsdownp .dropdown-toggle::after, .wrap_dropsdownq .dropdown-toggle::after {
+            position: initial;
+            float: initial;
+        }
+
+        p.red_raps-text {
+            color: #f1354d;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .text-green-custom {
+            color: #68C100;
+        }
+
+        .text-red-custom {
+            color: #f1354d;
+        }
+
+        .bg_green_wraps {
+            background: #68C100 !important;
+        }
+
+        .bg_red_wraps {
+            background: #f1354d !important;
+        }
+
+        #income_value_incomeCard {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        #income_change_percentage_incomeCard {
+            font-size: 14px;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+
+        .card_loader_div {
+            opacity: 1;
+            position: absolute;
+            z-index: 2147483647 !important;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* To fix tooltip issue highcharts when scroll-enabled. */
+        .main-panel {
+            z-index: 2 !important;
+        }
+
+
+        .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day {
+            cursor: pointer;
+        }
+
+        .datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.disabled {
+            cursor: no-drop;
+            color: #ccc;
+        }
+
+        .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.prev {
+            cursor: pointer;
+        }
+
+        .datepicker.datepicker-dropdown .datepicker-days table.table-condensed thead tr th.next {
+            cursor: pointer;
+        }
+
+        /*-------------------Date Picker UI----------------*/
+        .datepicker-months table {
+            width: 100%;
+        }
+
+            .datepicker-months table tbody td {
+                padding-top: 16px;
+            }
+
+        .datepicker-years table {
+            width: 100%;
+        }
+
+            .datepicker-years table tbody td {
+                padding-top: 16px;
+            }
+
+        .datepicker-decades table {
+            width: 100%;
+        }
+
+            .datepicker-decades table tbody td {
+                padding-top: 16px;
+            }
+
+        .datepicker-centuries table {
+            width: 100%;
+        }
+
+            .datepicker-centuries table tbody td {
+                padding-top: 16px;
+            }
+        /*-------------------Date Picker UI----------------*/
+
+        /*.content-wrapper {
+            min-height: initial;
+        }
+
+        .wrap_dashboard {
+            width: 100%;
+            padding: 0px 16px;
+        }
+
+        .wraps_dashbords {
+            padding: 22px;
+        }
+
+        .wrap_dashboard p {
+            font-size: 15px !important;
+        }
+
+        @media only screen and (min-width:768px) and (max-width:1920px) {
+            .custm_date-wrappopup {
+                width: 400px !important;
+            }
+        }*/
+
+        .wrap_dashboard {
+            width: 100%;
+            padding: 0px 16px;
+        }
+
+        #ddlFranchicse_RedirectOption_HeadOfficeDashboard {
+            display: none; /* Hide the div by default */
+        }
+
+        .loader_DashboardCSSCommonClass {
+            width: 100% !important;
+            height: 100% !important;
+        }

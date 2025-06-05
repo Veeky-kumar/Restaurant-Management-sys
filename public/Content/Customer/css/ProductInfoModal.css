@@ -1,0 +1,191 @@
+﻿img.item_image {
+    height: 360px !important;
+}
+
+.right_wrap-modifire_side {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.food_img {
+    width: 90px;
+    height: 90px;
+    /*background: #808080;*/
+    background: #fff;
+    border-radius: 10px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+    .food_img img {
+        width: 90px;
+        height: 90px;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+
+#cartItemCountBubble {
+    position: absolute;
+    background: red;
+    color: #fff;
+    /*padding: 5px;*/
+    /*border-radius: 100px;*/
+    top: -8px;
+    right: 2px;
+}
+
+.bubble-count {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: #fff;
+    font-weight: 800;
+    font-size: 9px;
+    height: 21px;
+    min-width: 21px;
+    line-height: 1;
+    border-radius: 21px;
+    letter-spacing: 0;
+    transition: background .2s ease-in-out, color .2s ease-in-out;
+}
+
+/*.btn.focus, .btn:focus {
+        box-shadow: none;
+    }*/
+
+/* Disable Arrow buttons on input[type=number] fields*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Disable Arrow buttons on input[type=number] fields*/
+
+.triangle {
+    border: 0px;
+    border: 34px solid transparent;
+    border-top: 28px solid #fff;
+    border-bottom: 0px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+    .triangle span.value_text {
+        font-size: 10px;
+        top: -34px;
+    }
+
+.button_choices {
+    flex-wrap: wrap;
+}
+
+.wrap_choics-div {
+    margin: 5px;
+}
+
+button.btn.btn-outline-secondary.choics_wraps-button {
+    width: 7.8em;
+    padding: 2px;
+}
+
+#sectionProductDetails {
+    padding-bottom: 40px;
+}
+
+#modifiersSection .form-check-input {
+    margin-top: 0.5rem;
+}
+
+.wraps_flexs label.form-check-label {
+    font-weight: bold;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+/*.flex_price {
+        min-width: 200px;
+    }
+
+    #modifiersSection .qtySelector {
+        margin: initial;
+    }*/
+
+.btn_quantity_disabled {
+    color: #ccc;
+}
+
+.qtySelector {
+    width: 105px;
+}
+
+.sticky_side {
+    position: sticky;
+    top: 45px;
+}
+
+#div_AddToCart_bottom {
+    display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    #div_AddToCart_bottom {
+        display: block;
+    }
+}
+
+form.checkout_form-details input:focus {
+    border-color: #000;
+}
+
+.continue_wrap-button {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+    #ProductDetailModal_CustomerPanel .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+
+    #ProductDetailModal_CustomerPanel .modal-dialog {
+        margin-top: 25px !important;
+    }
+
+    .right_wrap-modifire_side {
+        height: 100%;
+        overflow-y: hidden;
+    }
+}
+
+@media (min-width: 1024px) {
+    #ProductDetailModal_CustomerPanel .modal-dialog {
+        max-width: 1000px;
+        margin: 1.75rem auto;
+    }
+}
+
+body.shortcut-listen.modal-open {
+    overflow: hidden;
+}
+
+#ProductDetailModal_CustomerPanel .modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+@media(max-width: 768px) {
+    #ProductDetailModal_CustomerPanel .modal-dialog {
+        min-height: calc(100vh - 20px);
+    }
+}
