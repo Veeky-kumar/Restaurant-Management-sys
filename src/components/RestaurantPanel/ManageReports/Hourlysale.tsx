@@ -217,7 +217,7 @@ const Hourlysale: React.FC = () => {
                 itemMarginBottom: 8,
                 useHTML: true,
                 labelFormatter: function () {
-                    return `${this.name} (${this.y}%)`;
+                    // return `${this.name} (${this.y}%)`;
                 },
                 borderWidth: null,
         },
@@ -255,7 +255,7 @@ const Hourlysale: React.FC = () => {
                                 layout: "horizontal",
                                 useHTML: true,
                                 labelFormatter: function () {
-                                    return `${this.name} (${this.y}%)`;
+                                    // return `${this.name} (${this.y}%)`;
                                 },
                                 borderWidth: null,
                             },

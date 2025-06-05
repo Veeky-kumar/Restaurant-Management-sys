@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import DatePicker from 'react-datepicker';
 import EmailModal from './EmailModal'
 import axios from 'axios';
-import html2pdf from 'html2pdf.js';
+// import html2pdf from 'html2pdf.js';
 
 interface ModifierSalesData {
     Name: string;
@@ -19,6 +19,11 @@ interface formData {
     restaurantLoginId: 0;
     toDate: string;
 }
+interface ResponseDataType {
+    salesData_ModifierSalesGraph?: ModifierSalesData[];
+    filterValue2?: string;
+    // Add other properties as needed
+}
 
 const Modifiers = () => {
 
@@ -30,7 +35,7 @@ const Modifiers = () => {
     const [loading, setLoading] = useState<boolean>(false);
     const [modifierSalesData, setModifierSalesData] = useState<ModifierSalesData[]>([]);
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [responseData, setResponseData] = useState({});
+    const [responseData, setResponseData] = useState<ResponseDataType>({});
     const UserToken_Global = localStorage.getItem("authToken");
     const RestaurantLoginId_Global = 0;
     const [formData, setFormData] = useState<formData>({
@@ -155,10 +160,10 @@ const Modifiers = () => {
                 jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
             };
 
-            html2pdf()
-                .from(element)
-                .set(options)
-                .save();
+            // html2pdf()
+            //     .from(element)
+            //     .set(options)
+            //     .save();
         } else {
             console.error('Report content element not found.');
         }
@@ -287,7 +292,7 @@ const Modifiers = () => {
                             <div className="graph">
                                 <div className="set-graph">
                                     <div id="lblSelectedFilterOption_ModifierSaleReports_ManageReports" className="lblHeading_HourlySales_Style">
-                                        {modifierSalesData.length > 0 ? modifierSalesData[modifierSalesData.length - 1].FilterType_Value : "No Filter Applied"}
+                                        {/* {modifierSalesData.length > 0 ? modifierSalesData[modifierSalesData.length - 1].FilterType_Value : "No Filter Applied"} */}
                                     </div>
                                     <div id="dv_ProductSalesGraphData_Section_ManageReports" className="product_sale-bars">
 
@@ -346,7 +351,7 @@ const Modifiers = () => {
                                                 id="lblFilterValue_ModifierSales_PDFReport_RestaurantReports"
                                                 style={{ textAlign: 'center' }}
                                             >
-                                                {responseData.filterValue2}
+                                                {/* {responseData.filterValue2} */}
                                             </p>
                                             <div className="table-responsive">
                                                 <div className="sales_wrap_profits" style={{ textAlign: 'right' }}>
@@ -484,7 +489,7 @@ const Modifiers = () => {
                                                         </tr>
 
                                                         {responseData?.salesData_ModifierSalesGraph && responseData.salesData_ModifierSalesGraph.length > 0 ? (
-                                                            responseData.salesData_ModifierSalesGraph.map((item, index) => (
+                                                            responseData.salesData_ModifierSalesGraph.map((item:any, index:any) => (
                                                                 <tr key={index} className="details rowsModifierSalesPDFReportCommonClass">
                                                                     <td
                                                                         style={{
@@ -642,7 +647,7 @@ const Modifiers = () => {
                                                                 }}
                                                             >
                                                                 {responseData?.salesData_ModifierSalesGraph?.reduce(
-                                                                    (total, item) => total + item.ModifierData,
+                                                                    (total:any, item:any) => total + item.ModifierData,
                                                                     0
                                                                 )}
                                                             </td>
@@ -660,7 +665,7 @@ const Modifiers = () => {
                                                                 }}
                                                             >
                                                                 {responseData?.salesData_ModifierSalesGraph?.reduce(
-                                                                    (total, item) => total + item.Total_Percentage,
+                                                                    (total:any, item:any) => total + item.Total_Percentage,
                                                                     0
                                                                 )}
                                                             </td>
@@ -678,7 +683,7 @@ const Modifiers = () => {
                                                                 }}
                                                             >
                                                                 {responseData?.salesData_ModifierSalesGraph?.reduce(
-                                                                    (total, item) => total + (item.ModifierData * 0.1),
+                                                                    (total:any, item:any) => total + (item.ModifierData * 0.1),
                                                                     0
                                                                 )}
                                                             </td>
@@ -696,7 +701,7 @@ const Modifiers = () => {
                                                                 }}
                                                             >
                                                                 {responseData?.salesData_ModifierSalesGraph?.reduce(
-                                                                    (total, item) => total + (item.Total_Percentage * 0.5),
+                                                                    (total:any, item:any) => total + (item.Total_Percentage * 0.5),
                                                                     0
                                                                 )}
                                                             </td>

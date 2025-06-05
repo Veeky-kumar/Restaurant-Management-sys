@@ -1,0 +1,11 @@
+declare module 'html2pdf.js' {
+    export function createPdf(element: HTMLElement, options?: any): Promise<void>;
+    export function from(element: HTMLElement): { 
+        save: (filename?: string) => Promise<void>; 
+        toPdf: () => { 
+            get: () => { 
+                then: (callback: (pdf: any) => void) => void; 
+            }; 
+        }; 
+    };
+}

@@ -2,6 +2,20 @@ import axios from "axios";
 import React, { useRef } from "react";
 import Swal from "sweetalert2";
 
+// Define the TimingData interface
+interface DayTiming {
+    openingTime: string;
+    closingTime: string;
+    lunchFrom: string;
+    lunchTo: string;
+    lunchToList: string[];
+    show: boolean;
+}
+
+interface TimingData {
+    [key: string]: DayTiming;
+}
+
 interface LunchBreakModalProps {
     buttonRef: React.RefObject<HTMLButtonElement>;
     openingTime: string[];
@@ -24,7 +38,6 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
 
             const apiUrl = `${import.meta.env.VITE_API_URL}/api/restaurant/closingtiminglist`;
 
-            // Make the API call with `lunchFromValue`.
             const response = await axios.post(
                 apiUrl,
                 { openTime: lunchFromValue },
@@ -67,7 +80,6 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
 
     const setLunchBreakTiming = async (day: string) => {
         try {
-
             const token = localStorage.getItem("authToken");
             if (!token) {
                 console.error("Authentication token is missing.");
@@ -75,7 +87,13 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
             }
             const apiUrl = `${import.meta.env.VITE_API_URL}/api/restaurant/setlunchbreak`;
 
-            const params = {
+            // Define params with proper typing
+            const params: {
+                restaurantOpeningTime: string;
+                restaurantClosingTime: string;
+                lunchBreakStartTime: string;
+                lunchBreakEndTime: string;
+            } = {
                 restaurantOpeningTime: timingData[day].openingTime,
                 restaurantClosingTime: timingData[day].closingTime,
                 lunchBreakStartTime: timingData[day].lunchFrom,
@@ -83,9 +101,10 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
             };
 
             const formData = new FormData();
-            for (const key in params) {
-                formData.append(key, params[key]);
-            }
+            // Type-safe append
+            Object.entries(params).forEach(([key, value]) => {
+                formData.append(key, value);
+            });
 
             const response = await axios.post(apiUrl, params, {
                 headers: {
@@ -139,12 +158,12 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
 
             {/* Modal */}
             <div
-                className="modal "
+                className="modal"
                 id="LunchBreak_RestaurantTiming_SoftwareSetting_Modal"
                 data-backdrop="static"
                 data-keyboard="false"
             >
-                <div className=" modal-dialog cstm_modal_dialog pr-0">
+                <div className="modal-dialog cstm_modal_dialog pr-0">
                     <div className="modal-content modal-content_m sm:hidden plus_modal_cont">
                         <div className="modal-header plus_modal_head" style={{ display: "block", textAlign: "center" }}>
                             <h4 className="modal-title plus_head_popup" style={{ left: 0 }}>
@@ -182,7 +201,6 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
                                         id="ddlLunchTo_RestaurantTiming_SoftwareSetting"
                                         className="form-control LunchToCommonClass"
                                         value={timingData[day]?.lunchTo || ""}
-
                                         onChange={(e) => handleLunchToChange(day, e.target.value)}
                                     >
                                         <option value="">Select</option>
@@ -204,7 +222,7 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
                                     data-dismiss="modal"
                                     ref={cancelRef}
                                 >
-                                  Cancel
+                                    Cancel
                                 </button>
                                 <button
                                     id="btnSubmitLunchBreakTiming_RestaurantTiming_SoftwareSetting"
@@ -212,13 +230,13 @@ const LunchBreakModal: React.FC<LunchBreakModalProps> = ({ buttonRef, openingTim
                                     className="cstm_model_plusbtn_2 btn btn-danger"
                                     onClick={() => setLunchBreakTiming(day)}
                                 >
-                                  Submit
+                                    Submit
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
         </>
     );
 };

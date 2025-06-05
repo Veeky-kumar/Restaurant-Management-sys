@@ -4,64 +4,61 @@ import HighchartsReact from 'highcharts-react-official';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
-
+// Fix: Add explicit types for startDate and endDate
 
 const RefundOrders: React.FC = () => {
+    const [startDate, setStartDate] = useState<Date | null>(null);
+    const [endDate, setEndDate] = useState<Date | null>(null);
 
-    const [startDate, setStartDate] = useState(null);
-    const [endDate, setEndDate] = useState(null);
-
-    const options = {
-        chart: {
+const options: Highcharts.Options = {
+    chart: {
+        type: 'pie',
+        backgroundColor: '#e6f0ff'
+    },
+    title: {
+        text: 'Current-Year <br> Refund-Order-Reasons',
+        y: -60,
+        style: {
+            fontWeight: 'bold',
+            fontSize: '16px'
+        }
+    },
+    tooltip: {
+        pointFormat: '{point.percentage:.2f}% (${point.y})<br>{point.name}'
+    },
+    plotOptions: {
+        pie: {
+            innerSize: '60%',
+        }
+    },
+    legend: {
+        enabled: true
+    },
+    series: [
+        {
             type: 'pie',
-            backgroundColor: '#e6f0ff'
-        },
-        title: {
-            text: 'Current-Year <br> Refund-Order-Reasons',
-            // align: 'center',
-            // verticalAlign: 'middle',
-            y: -60,
-            style: {
-                fontWeight: 'bold',
-                fontSize: '16px'
-            }
-        },
-        tooltip: {
-            pointFormat: '{point.percentage:.2f}% (${point.y})<br>{point.name}'
-        },
-        plotOptions: {
-            pie: {
-                innerSize: '60%', // Creates the donut effect
-                // dataLabels: {
-                //     enabled: true,
-                //     format: '{point.percentage:.2f}% (${point.y})<br>{point.name}',
-                //     distance: -50,
-                //     style: {
-                //         color: 'black',
-                //         fontSize: '12px'
-                //     }
-                // }
-            }
-        },
-        legend: {
-            enabled: true
-        },
-        series: [
-            {
-                name: 'Refund Reasons',
-                colorByPoint: true,
-                data: [
-                    { name: 'Refund reason 3', y: 253, color: '#4aa3f0' }, // Light blue color
-                    { name: 'Refund reason 4', y: 40, color: '#6a0dad' } // Purple color
-                ]
-            }
-        ]
-    };
+            name: 'Refund Reasons',
+           
+            colorByPoint: true,
+            data: [
+                { name: 'Refund reason 3', y: 253, color: '#4aa3f0' },
+                { name: 'Refund reason 4', y: 40, color: '#6a0dad' }
+            ]
+        } as Highcharts.SeriesPieOptions 
+    ]
+};
 
     return (
         <div id="viewrecord" className="container-fluid tab-pane px-0 active">
             <ul className="tabs clearfix d-none">
-                <li><a id="tab_ViewRecords_ManageRestaurantReports" href="#viewrecord" className="ViewRecordReportDataClassCommon active" onClick="SearchViewRecords_ManageReoprts();"></a></li>
+                <li>
+                    <a
+                        id="tab_ViewRecords_ManageRestaurantReports"
+                        href="#viewrecord"
+                        className="ViewRecordReportDataClassCommon active"
+                        // onClick="SearchViewRecords_ManageReoprts();" // Fix: Remove string event handler
+                    ></a>
+                </li>
             </ul>
             <div className="container-fluid col-box px-0">
                 <div className="row align-items-center bg-light select-icon marg-box">
@@ -71,7 +68,6 @@ const RefundOrders: React.FC = () => {
                             <select
                                 className="form-control commonClass_ManageReports"
                                 id="ddlTimePeriodSearchTypeValue"
-
                             >
                                 <option value="1">Today</option>
                                 <option value="2">Yesterday</option>
@@ -91,14 +87,14 @@ const RefundOrders: React.FC = () => {
                             >
                                 From
                             </label>
-                            <DatePicker
-                                selected={startDate}
-                                onChange={(date) => setStartDate(date)}
-                                selectsStart
-                                startDate={startDate}
-                                endDate={endDate}
-                                className="form-control bg-light mt-0"
-                            />
+                          <DatePicker
+    selected={startDate ?? undefined}
+    onChange={(date: Date | null) => setStartDate(date)}
+    selectsStart
+    startDate={startDate ?? undefined}
+    endDate={endDate ?? undefined}
+    className="form-control bg-light mt-0"
+/>
                         </div>
                     </div>
 
@@ -110,15 +106,15 @@ const RefundOrders: React.FC = () => {
                             >
                                 To
                             </label>
-                            <DatePicker
-                                selected={endDate}
-                                onChange={(date) => setEndDate(date)}
-                                selectsEnd
-                                startDate={startDate}
-                                endDate={endDate}
-                                minDate={startDate}
-                                className="form-control bg-light mt-0"
-                            />
+                         <DatePicker
+    selected={endDate ?? undefined}
+    onChange={(date: Date | null) => setEndDate(date)}
+    selectsEnd
+    startDate={startDate ?? undefined}
+    endDate={endDate ?? undefined}
+    minDate={startDate ?? undefined}
+    className="form-control bg-light mt-0"
+/>
                         </div>
                     </div>
                     <div className="col-9 col-md-6 col-lg-3">
@@ -127,7 +123,6 @@ const RefundOrders: React.FC = () => {
                             <select
                                 className="form-control"
                                 id="ddlTenderTypeId"
-
                             >
                                 <option value="0">All</option>
                                 <option value="1">Cash</option>
@@ -235,7 +230,7 @@ const RefundOrders: React.FC = () => {
                             <div id="ShowMoreSearchViewRecords_ManageReoprts" className="p-2 text-center">
                                 <button
                                     className="btn btn-primary commonClass_ManageReports"
-                                // onClick={ShowMoreSearchViewRecords_ManageReoprts}
+                                    // onClick={ShowMoreSearchViewRecords_ManageReoprts}
                                 >
                                     View more
                                 </button>
@@ -296,7 +291,7 @@ const RefundOrders: React.FC = () => {
 
                                     <div className="row my-3  pb-0 d-none">
                                         <div className="col text-center">
-                                            <button className="btn btn-primary commonClass_ManageReports" onclick="Show_SendInvoiceEmailPopup_RestaurantSingleOrder();">
+                                            <button className="btn btn-primary commonClass_ManageReports" /* onClick={Show_SendInvoiceEmailPopup_RestaurantSingleOrder} */>
                                                 Send
                                                 Invoice
                                             </button>

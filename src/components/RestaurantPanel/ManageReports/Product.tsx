@@ -70,6 +70,20 @@ interface TotalGrossData {
 
 interface SalesDataState {
     salesData_ProductSales_PDFReport: DepartmentData[];
+    SubDepartmentName: string;
+    sale_data: SaleData[];
+    salesData_ProductSalesGraph: GraphData[];
+    TotalQuantity_Department: number;
+    TotalSale_Amount_Department_StringFormat: string;
+    TotalProfit_Amount_Department_StringFormat: string;
+    TotalDiscount_Amount_Department_StringFormat: string;
+    TotalGST_Included_Amount_Department_StringFormat: string;
+    Total_GST_Tax_Amount_Department_StringFormat: string;
+    Total_GST_Excluded_Amount_Department_StringFormat: string;
+    Total_GrossSale_Amount_Department_StringFormat: string;
+    FilterType_Value: string | null;
+    FilterType_Value2: string | null;
+    
 }
 
 interface GraphData {
@@ -102,16 +116,16 @@ interface FilterData {
     restaurantLoginId: number;
 }
 
-interface SalesDataBarGraph {
-    currentWeekValue: string;
-    lastWeekValue: string;
-    dayNamesList: string[];
-    salesData_CurrentWeek: number[];
-    salesData_LastWeek: number[];
-    totalSales_CurrentWeek: number;
-    totalSales_CurrentWeek_ChangePercentage: number;
-    totalSales_LastWeek: number;
-}
+// interface SalesDataBarGraph {
+//     currentWeekValue: string;
+//     lastWeekValue: string;
+//     dayNamesList: string[];
+//     salesData_CurrentWeek: number[];
+//     salesData_LastWeek: number[];
+//     totalSales_CurrentWeek: number;
+//     totalSales_CurrentWeek_ChangePercentage: number;
+//     totalSales_LastWeek: number;
+// }
 
 const Product = () => {
     const [activeTab, setActiveTab] = useState<string>('product_sales');
@@ -126,7 +140,7 @@ const Product = () => {
     const [isproductModal, setIsProductModal] = useState<boolean>(false);
     const [productList, setProductList] = useState<productList[]>([]);
     const [options, setOptions] = useState<any>(null);
-    const [salesDataBarGraph, setSalesDataBarGraph] = useState<SalesDataBarGraph>([])
+// const [salesDataBarGraph, setSalesDataBarGraph] = useState<SalesDataBarGraph | null>(null);
     const [formData, setFormData] = useState<formData>({
         filterProductSalesMaxRecords: 20,
         filterProductSalesType: "top",

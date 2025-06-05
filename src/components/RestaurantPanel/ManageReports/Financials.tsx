@@ -5,7 +5,7 @@ import * as Highcharts from 'highcharts';
 import DatePicker from 'react-datepicker';
 import axios from 'axios';
 import Swal from "sweetalert2";
-import html2pdf from 'html2pdf.js';
+// import html2pdf from 'html2pdf.js';
 
 
 const Toast = Swal.mixin({
@@ -96,9 +96,10 @@ interface DiscountDetails {
 }
 
 interface PromotionData {
-    TotalPromotionCount: number;
-    TotalPromotionsAmountSum: number;
+    TotalPromotionCount: number ;
+    TotalPromotionsAmountSum: number ;
     PromotionDetail_StringFormat: string | null;
+
 };
 
 
@@ -467,10 +468,10 @@ const Financials: React.FC = () => {
                 jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
             };
 
-            html2pdf()
-                .from(element)
-                .set(options)
-                .save();
+            // html2pdf()
+            //     .from(element)
+            //     .set(options)
+            //     .save();
         } else {
             alert('Report content element not found.');
         }
@@ -721,12 +722,12 @@ const Financials: React.FC = () => {
 
                                                                     <div style={{ fontSize: '13px', fontStyle: 'italic' }} dangerouslySetInnerHTML={{ __html: promotionDetailStringFormat }} />
                                                                 </td>
-                                                                <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>
+                                                                {/* <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>
                                                                     {promotionData?.TotalPromotionCount}
                                                                 </td>
                                                                 <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>
                                                                     {parseFloat(promotionData?.TotalPromotionsAmountSum).toFixed(2)}
-                                                                </td>
+                                                                </td> */}
                                                             </tr>
 
                                                             {discountDetails?.map((item) => (
@@ -762,7 +763,7 @@ const Financials: React.FC = () => {
                                                             </tr>
                                                             <tr className="details">
                                                                 <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>Sales</td>
-                                                                <td id="lblSales_Count_FinancialPDFReport_RestaurantReports" className="FinancialPDFReportFieldCommonClass" style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>{parseFloat(saleData?.TotalSale_Count) - parseFloat(saleData?.TotalRefund_Count)}</td>
+                                                                {/* <td id="lblSales_Count_FinancialPDFReport_RestaurantReports" className="FinancialPDFReportFieldCommonClass" style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>{parseFloat(saleData?.TotalSale_Count) - parseFloat(saleData?.TotalRefund_Count)}</td> */}
                                                                 <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}></td>
                                                             </tr>
                                                             <tr className="details">
@@ -820,7 +821,7 @@ const Financials: React.FC = () => {
                                                             <tr className="details">
                                                                 <td style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>GST</td>
                                                                 <td id="lblGST_TaxAmount_FinancialPDFReport_RestaurantReports" className="FinancialPDFReportFieldCommonClass" style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}>{saleData?.Total_GST_Tax_Amount_StringFormat}</td>
-                                                                <td id="lblGST_SalesAmount_FinancialPDFReport_RestaurantReports" className="FinancialPDFReportFieldCommonClass" style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}> {parseFloat(saleData?.TotalSale_Amount - saleData?.Total_GST_Tax_Amount).toFixed(2)}</td>
+                                                                {/* <td id="lblGST_SalesAmount_FinancialPDFReport_RestaurantReports" className="FinancialPDFReportFieldCommonClass" style={{ padding: '5px', verticalAlign: 'top', paddingBottom: '2px', fontSize: '13px', textAlign: 'right' }}> {parseFloat(saleData?.TotalSale_Amount - saleData?.Total_GST_Tax_Amount).toFixed(2)}</td> */}
                                                             </tr>
                                                         </tbody>
                                                     </table>
